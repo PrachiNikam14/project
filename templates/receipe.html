@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipe Page</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='receipe.css')}}">
+    <style>
+           /* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    padding-top: 70px;
+}
+
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Search Bar */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #ff9800;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.search-button:hover {
+    background-color: #e68900;
+}
+
+/* Recipe Button */
+.receipe-button {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.receipe-button:hover {
+    background-color: #e68900;
+}
+
+/* Recipes Grid */
+.receipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Recipe Card */
+.recipe-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.recipe-card:hover {
+    transform: scale(1.05);
+}
+
+.recipe-card h3 {
+    color: #ff9800;
+    margin-bottom: 10px;
+}
+
+ /* Hero Section */
+.hero{
+    position: relative;
+    background: url('hero1.jpeg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+        }
+
+    </style>
+</head>
+<body>
+     
+       <div class="container">
+        <div class="search-container">
+            <form action="{{ url_for('search') }}" method="get">
+              <input type="text" class="search-input" placeholder="Search Ingredients" name="query">
+              <button type="submit" class="search-button">Search</button>
+            </form>
+          </div>
+          <a href="/receipe_form"><button type="submit" class="receipe-button">Add Receipe</button></a>
+
+      <h2><center>Recipes</center></h2>     
+      <div class="receipes">
+         {% for recipe in recipes %}
+         <div class="recipe-card">
+            <h3>{{ recipe.title }}</h3>
+            <p><strong>Ingredients:</strong> {{ recipe.ingredients }}</p>
+            <p><strong>Description:</strong> {{ recipe.description }}</p>
+            {% if recipe.tips %}
+            <p><em>Tips: {{ recipe.tips }}</em></p>
+            {% endif %}
+         </div>
+         {% endfor %}
+      </div>
+      </div>
+
+       </div>
+</body>
+</html>
