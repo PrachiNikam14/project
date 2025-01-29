@@ -1,0 +1,63 @@
+<!-- Main Page Of Donar DashBoard -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donar DashBoard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='donor_dash.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Donar Dashboard</h1>
+            <a href="#" class="logout">LogOut</a>
+        </div>
+    </div>
+    <div class="content">
+    <div class="sidebar">
+        <ul>
+                <li> <p class="main">&equiv; Main Menu </p></li>
+                <br> 
+                <li><a href="{{ url_for('donor_dashboard') }}">DashBoard</a></li> 
+                <li><a href="{{ url_for('donate') }}">Donate</a></li>  
+                <li><a href="{{ url_for('foodlist') }}">Food List</a></li>
+                <li><a href="{{ url_for('requests') }}">Requests</a></li>
+        </ul> 
+    </div>
+    <div class="form-content">
+        <div class="form-container">
+            <h2>List Your Food Details</h2>
+            <form method="POST" action="{{ url_for('submit_food') }}" enctype="multipart/form-data">
+                <label for="foodItem">Food Item</label>
+                <input type="text" id="foodItem" name="foodItem">
+    
+                <label for="description">Description</label>
+                <textarea id="description" name="description"></textarea>
+    
+                <label for="pickupDate">Pickup Date</label>
+                <input type="date" id="pickupDate" name="pickupDate">
+    
+                <label for="pickupAddress">Pickup Address</label>
+                <input type="text" id="pickupAddress" name="pickupAddress">
+    
+                <label for="city"> City</label>
+                <input type="text" id="city" name="city">
+    
+                <label for="contactPerson">Contact Person</label>
+                <input type="text" id="contactPerson" name="contactPerson">
+    
+                <label for="mobileNumber">Contact Person Mobile Number</label>
+                <input type="number" id="mobileNumber" name="mobileNumber">
+    
+                <label for="pictures">Pictures</label>
+                <input type="file" id="pictures" name="pictures" accept="image/*">
+    
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>

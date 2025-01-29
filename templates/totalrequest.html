@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Request Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='admin_dash.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Admin Dashboard</h1>
+            <a href="{{ url_for('logout') }}" class="logout"><i class="fa-solid fa-user"></i>LogOut</a>
+
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <h2><i class="fa-solid fa-bars"></i>Admin Menu</h2>
+              <ul>
+                <li><a href="admin_dashboard.html">Dashboard</a></li>
+                <li><a href="City.html">Total Cities</a></li>
+                <li><a href="manage_user.html">Manage Users</a></li>
+                <li><a href="manage_ngo.html">Manage NGOs</a></li>
+                <li><a href="totalrequest.html"> All Requests</a></li>
+                <li><a href="feedback.html">Feedbacks</a></li>
+              </ul>
+            </div>
+            <div class="content">
+                <p>Requests Page</p>
+            </div>
+        </div>
+      </div>
+    
+</body>
+</html>

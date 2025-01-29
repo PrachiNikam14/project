@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="guidence.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+ <style>
+   /* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+ /* Navbar */
+ .navbar {
+            background-color: rgb(209, 145, 72);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar a{
+            color: azure;
+        }
+
+        
+        #a{
+            color: white;
+        }
+        #b{
+            color: rgb(255, 106, 0);
+        }
+
+
+/* Header Section */
+header {
+    background-color: #2c3e50;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.menu ul li {
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #e74c3c;
+}
+
+select {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Mobile Menu */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background-color: #e74c3c;
+}
+
+/* Hero Section */
+.guide_hero {
+   background-image: url("{{ url_for('static', filename='hero.jpeg') }}") ;
+   background-repeat: no-repeat;
+   width: 100vw;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.guide_hero h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Main Content: Boxes */
+.guide_container {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.box h1 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+    color: #2c3e50;
+}
+
+.box p {
+    color: #777;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.box a {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #e74c3c;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+.box:hover a {
+    color: #c0392b;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+section h1, section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+}
+
+section a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+section a:hover {
+    color: #c0392b;
+}
+
+
+.footer {
+            background-color: #222;
+            padding: 30px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            background-color: #121212;
+            color: #fff;
+        }
+
+        .footer .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #fdbb2d;
+        }
+
+        .footer .links a {
+            color: #fdbb2d;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        .footer .contact {
+            margin-top: 10px;
+        }
+
+        .footer .contact p {
+            margin: 5px 0;
+        }
+
+        .footer .social-icons a {
+            color: #fff;
+            font-size: 18px;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+
+        .footer .social-icons a:hover {
+            color: #fdbb2d;
+        }
+
+        @media (max-width: 768px) {
+            .footer {
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+            }
+
+            .footer .links, 
+            .footer .contact, 
+            .footer .social-icons {
+                margin-top: 10px;
+            }
+        }
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+    .guide_hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .box {
+        padding: 15px;
+    }
+
+    .box h1 {
+        font-size: 1.4rem;
+    }
+
+    .box p {
+        font-size: 14px;
+    }
+
+    section h1, section h2 {
+        font-size: 2rem;
+    }
+
+    section p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar .title p {
+        font-size: 28px;
+    }
+
+    .guide_hero h1 {
+        font-size: 2rem;
+    }
+
+    .menu ul {
+        gap: 10px;
+    }
+}
+ </style>
+
+   </head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+          <div class="title">
+              <p id="a">SHARE A MEAL </p>
+              
+           </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                  <li class="nav-item"><a class="nav-link" href="receipe.html">Receipes</a></li>
+                  <li class="nav-item"><a class="nav-link" href="guidance.html">Guidance</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                  <li class="nav-item"><a class="nav-link" href="signup.html">Sign In/Sign Up</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+<div class="guide_hero">
+<div class="hero_content">
+    <h1>Guide to Composing your Meal Donation</h1>
+</div>
+    </div>
+
+    <div class="guide_container">
+        <div class="box">
+            <img src="{{ url_for('static', filename='why_compost.jpeg') }}" alt="Placeholder Image 1">
+            <h1>Why Compost ? </h1>
+            <br>
+            <p>
+                Composting is great for several reasons! It’s an eco-friendly way to reduce waste, diverting organic materials like food scraps and yard waste from landfills, where they would otherwise release methane, a potent greenhouse gas.</p>
+            <a href="#details1">Read More</a>
+        </div>
+        <div class="box">
+            <img src="{{ url_for('static', filename='start composting.jpeg') }}" alt="Placeholder Image 2">
+            <h1>How to Start Composting ?</h1>
+            <br>
+            <p>Starting composting is easy and can be done in just a few simple steps. First, choose a composting method that suits your space, such as a compost bin, a pile or heap, or even a tumbler for easier mixing. The next step is gathering materials—composting.  </p>
+            <a href="#details2">Read More</a>
+        </div>
+        <div class="box">
+            <img src="{{ url_for('static', filename='mistake.jpeg') }}" alt="Placeholder Image 3">
+            <h1>Common Composting Mistakes ?</h1>
+            <br>
+            <p>There are several common composting mistakes that can hinder the process or cause problems. One of the biggest is an imbalance between greens (nitrogen-rich materials like food scraps) and browns (carbon-rich materials like dry leaves).</p>
+            <a href="#details3">Read More</a>
+        </div>
+    </div>
+
+    <section id="details1">
+        <h1><i class="fa-solid fa-angle-up"></i>Why Compost ? </h1>
+        <br>
+        <br>
+        <p>Composting is great for several reasons! It’s an eco-friendly way to reduce waste, diverting organic materials like food scraps and yard waste from landfills, where they would otherwise release methane, a potent greenhouse gas. Composting helps turn that waste into nutrient-rich soil, which can improve plant growth by enhancing soil structure, fertility, and water retention. It also reduces the need for chemical fertilizers, which can harm the environment.
+            <br>
+            <br>
+            1. Reduces Waste and Landfill Use
+            Composting is one of the most effective ways to reduce the amount of organic waste that ends up in landfills. In the U.S., nearly 30-40% of landfill waste is organic material, such as food scraps, yard waste, and paper. When organic materials decompose in landfills, they do so anaerobically (without oxygen), producing methane, a potent greenhouse gas that contributes to climate change. Composting these materials instead helps divert them from landfills, significantly reducing their environmental impact.
+            <br>
+            <br>
+            2. Fights Climate Change
+            As mentioned, when organic waste rots in landfills, it releases methane. By composting, you’re keeping that material out of the landfill, which in turn helps prevent the release of this harmful gas into the atmosphere. Composting can also sequester carbon in the soil, which can offset some of the CO2 emissions generated by human activity. Healthy, well-maintained composting reduces the environmental footprint of waste disposal.
+            <br>
+            <br>
+            3. Improves Soil Health
+            Compost is often referred to as "black gold" for a reason. When added to the soil, it enriches it with essential nutrients that plants need to thrive, such as nitrogen, phosphorus, and potassium. It also improves soil structure by increasing its ability to retain moisture, reduce erosion, and promote the growth of beneficial soil organisms like earthworms. Composting also helps balance pH levels, creating a healthier, more fertile growing environment. This can lead to more vibrant gardens and stronger crops, reducing the need for chemical fertilizers that can be harmful to the environment.
+            <br>
+            <br>
+            4. Reduces the Need for Chemical Fertilizers
+            Chemical fertilizers, though effective for plant growth, have significant environmental downsides, including soil degradation, water pollution from runoff, and negative effects on wildlife. Compost serves as a natural alternative to chemical fertilizers. By providing organic matter, compost helps sustain soil health and fertility without the need for synthetic chemicals. This supports a more sustainable farming or gardening practice and promotes healthier ecosystems.
+            <br>
+            <br>
+            5. Helps Conserve Water
+            Compost improves soil’s ability to retain moisture. It helps create a sponge-like texture that holds water better and reduces evaporation, meaning you don’t have to water your plants as frequently. This is especially valuable in drought-prone areas where water conservation is a priority. By incorporating compost into your garden or landscape, you can cut down on water usage while maintaining healthy plant growth.
+            <br>
+            <br>
+            6. Reduces Soil Erosion
+            By adding compost to your soil, you can improve its structure and help prevent erosion. The organic matter in compost binds soil particles together, increasing their resistance to wind and water erosion. This is particularly important in areas with heavy rainfall or on slopes, where topsoil can easily wash away without adequate cover.
+            <br>
+            <br>
+            7. Encourages Biodiversity
+            Composting fosters healthy ecosystems, both above and below the ground. When compost is added to soil, it supports a diverse community of microorganisms, fungi, and insects that work together to break down organic matter and maintain soil health. This biodiversity improves the resilience of plants, helping them resist disease and pests, and also supports a variety of species in the wider ecosystem.
+            <br>
+            <br>
+            8. Economic Benefits
+            Composting can save money by reducing the need for costly commercial fertilizers and soil amendments. Additionally, it cuts down on waste disposal fees, as organic waste that would otherwise be thrown away can be composted at home or through local programs. For those with gardens or farms, using compost can lead to better yields, less dependency on chemical inputs, and healthier plants, potentially reducing the need for expensive pesticides and fertilizers.
+            <br>
+            <br>
+            9. Personal Satisfaction and Education
+            Composting is a fulfilling, hands-on process that connects people to the natural world. It teaches about ecosystems, decomposition, and the life cycle of organic materials. For gardeners, it’s especially rewarding to see the fruits of their labor—healthy, thriving plants—nourished by compost they’ve created themselves. It's also an opportunity for people to practice sustainability in their everyday lives, creating a more mindful relationship with the environment.</p>
+    </section>
+    <section id="details2">
+        <h1><i class="fa-solid fa-angle-up"></i>How to Start Composting ?</h1>
+        <br><br>
+        <p>1. Choose a Composting Method
+            Compost bin: You can buy or DIY a bin to keep your compost neat and contained. This is ideal for smaller spaces.
+            Pile or heap: If you have a backyard, you can start a compost pile directly on the ground.
+            Tumbler: This is a rotating bin that makes turning your compost easier.
+            You’ll want to keep it in a spot that’s well-drained, has good air circulation, and is out of the way, but still accessible.
+            <br><br>
+            2. Gather Your Materials
+            Composting is about balancing "greens" and "browns." Here's what you need:
+            <br>
+            <br>
+            Greens: These are nitrogen-rich materials, like:
+            Fruit and vegetable scraps
+            Coffee grounds and filters
+            Grass clippings
+            Fresh leaves
+            Manure (from herbivores like cows, chickens, or horses)
+            Browns: These are carbon-rich materials, like:
+            Dry leaves
+            Straw or hay
+            Shredded newspaper or cardboard
+            Wood chips or sawdust
+            Eggshells (break them up)
+            A good rule of thumb is to aim for about 1 part greens to 3 parts browns.
+            <br>
+            <br>
+            3. Start Layering
+            Begin by adding a layer of browns (like dried leaves or cardboard) at the bottom of your compost bin or pile to promote airflow.
+            Then, alternate between greens and browns, adding a little water as you go. If you have a compost tumbler, give it a spin now and then to mix things up.
+            <br><br>
+            4. Maintain Your Pile
+            Turn it regularly: Aerating the pile helps speed up the breakdown process. If you’re using a bin, you can turn it with a shovel or pitchfork. If you’re using a tumbler, just rotate it every few days.
+            Moisture: The compost should be kept moist, but not soggy—think of a wrung-out sponge.
+            Temperature: A well-maintained compost pile should get hot in the center (around 130-160°F or 54-71°C). This helps break down materials faster.
+            <br><br>
+            5. What to Avoid
+            Meat, dairy, and oily foods (they attract pests)
+            Diseased plants or weeds that have gone to seed (you don’t want to spread those)
+            Pet waste (it can contain harmful bacteria)
+            <br><br>
+            6. Harvest Your Compost
+            After a few months (usually 2-6 months), your compost will turn dark, crumbly, and earthy-smelling. That’s when it’s ready to use! You can add it to your garden, potted plants, or even use it as a mulch.
+            <br><br>
+            Once you get the rhythm down, it’s pretty low-maintenance. If you have a small space, there are also composting options designed for apartments, like worm composting (vermicomposting). Have you thought about what method might work best for you?
+            
+            </p>
+    </section>
+    <section id="details3">
+        <h2><i class="fa-solid fa-angle-up"></i>Common Composting Mistakes ?</h2>
+        <br><br>
+        <p>Imbalanced Greens and Browns: If you add too many greens (like fruit scraps and grass clippings) and not enough browns (like dried leaves and cardboard), your compost can become too wet and smelly, or it might not break down properly. Aim for a good balance—around 1 part greens to 3 parts browns.
+<br><br>
+            1. Not Turning the Pile: Compost needs air to decompose effectively. If you don’t turn the pile regularly, it can become compacted, slowing down the process and possibly leading to odor problems. Turn it every few weeks to keep the oxygen flowing and speed up decomposition.
+            <br><br>
+            2. Too Much Moisture: While compost needs moisture, too much water can create a soggy, smelly mess. If it’s too wet, it’ll start to smell like rotten garbage. If that happens, add more browns (like dry leaves or straw) to soak up the excess moisture and improve drainage.
+            <br><br>
+            3. Adding the Wrong Materials: Certain items should never go into your compost, like meat, dairy, oily foods, or pet waste. These can attract pests, cause foul odors, and even introduce harmful bacteria. Stick to plant-based materials for the healthiest compost.
+            <br><br>
+            4. Not Enough Airflow: Compost needs good airflow to break down properly. If your pile is in a container that’s too tightly packed or if it doesn’t have enough ventilation, it can become anaerobic (without oxygen), leading to bad smells. Make sure your bin has holes or is regularly turned to allow air to circulate.
+            <br><br>
+            5. Not Shredding Materials: Large or tough items, like big chunks of food scraps or large branches, will break down much slower than smaller, shredded pieces. Cutting or shredding materials into smaller sizes helps speed up the process.
+            <br><br>
+            6. Not Being Patient: Composting takes time. It can take anywhere from a few months to a year for your compost to fully break down, depending on the materials, size of your pile, and environmental conditions. If you rush or get discouraged by slow progress, you might stop turning it or adding to it.</p>
+    </section>
+
+    
+</div>
+
+<footer class="footer">
+   <div>
+       <div class="logo">Share A Meal</div>
+       <div class="links">
+           <a href="#">Home</a>
+           <a href="#">Blog</a>
+           <a href="#">About</a>
+           <a href="#">Contact</a>
+       </div>
+   </div>
+   <div class="contact">
+       <p>📍 309 - Rupa Solitaire, Mahape, Navi Mumbai - 400710</p>
+       <p>📞 +91 22-27782183</p>
+       <p>📧 support@eduonix.com</p>
+   </div>
+  
+</footer>
+</body>
+
+
+</html>
+
+

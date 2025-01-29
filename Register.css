@@ -1,0 +1,122 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            
+        }
+        .navbar{
+            height: 80px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #14293f;
+        }
+        .border{
+            border: 2px solid transparent;
+            
+            border-radius: 5px;  
+            padding: 7px;
+        }
+        .border:hover{
+            border: 2px solid black;
+            color: white;
+            text-decoration: underline;
+            background-color: black;
+        }
+        .topic{
+            font-weight:bolder ;
+            font-size: 2rem;
+            display: flex;
+            margin-left: 5%;
+            #a{
+                color: white;
+            }
+            #b{
+                color: rgb(255, 106, 0);
+            }
+            }
+
+            #a{
+                color: white;
+            }
+            #b{
+                color: rgb(255, 106, 0);
+            }
+            a{
+                font-size:1.5rem;
+                font-weight: 500;
+                text-decoration: none;
+                color: white;
+                border-radius: 50%;
+            }
+            
+            section{
+                background-image: url("hero.jpg");
+                background-size: cover;
+                height:600px;    
+            }
+            
+            
+            .menu{
+                list-style-type:none ;
+                width: 50%;
+            }
+            
+            ul{
+            list-style-type: none;
+            display: flex;
+            align-content: center;
+            justify-content: space-evenly;
+            margin-left: 20%;
+            }
+             
+        .container {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="loc"],
+        input[type="restau"],
+        textarea {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            border-color: #14293f;
+        }
+
+        .container{
+
+            border-color: #14293f;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(230, 14, 14);
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #218838;
+        }

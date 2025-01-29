@@ -1,0 +1,165 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f49b9b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: serif;
+    border: border-box;
+}
+
+/* navigation bar */
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #14293f;
+}
+
+.border{
+    border: 2px solid transparent;
+    
+    border-radius: 5px;  
+    padding: 7px;
+}
+.border:hover{
+    border: 2px solid black;
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+}
+
+/* for the title : share a meal */
+.title{
+font-weight:bolder ;
+font-size: 2rem;
+display: flex;
+margin-left: 5%;
+#a{
+    color: white;
+}
+#b{
+    color: rgb(255, 106, 0);
+}
+}
+
+/* for other options in nav bar */
+.menu{
+    list-style-type:none ;
+    width: 50%;
+}
+
+ul{
+list-style-type: none;
+display: flex;
+align-content: center;
+justify-content: space-evenly;
+margin-left: 20%;
+}
+ 
+a{
+    font-size:1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+}
+
+.delivery-container {
+    background-color: rgb(252, 240, 82);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    height:700px;
+    margin-left: 350px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #141212;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #403a3a;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    background-color: #26d619;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #c23a22;
+}
+
+footer
+{
+    height: 250px;
+    width: 100%;
+    background-color: #414141;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.footer_about, .footer_contact, .footer_title{
+    width: 25%;
+    font-size: 1.2rem;
+    color: white;
+    h5{
+        font-size: 1.5rem;
+        color: white;
+        padding: 8px;
+    }
+    i{
+        color: white;
+        font-size: 23px;
+        padding: 7px;
+    }
+    #fp{
+        color: white;
+        font-size: 1.4rem;
+        padding: 10px;
+    }
+    #o{
+        color:  rgb(255, 106, 0);
+        padding: 10px;
+    }
+
+}

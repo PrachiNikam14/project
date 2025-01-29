@@ -1,0 +1,252 @@
+.h{
+  .navbar{
+      height: 80px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #14293f;
+  }
+  
+  .border{
+      border: 2px solid transparent;
+      
+      border-radius: 5px;  
+      padding: 7px;
+  }
+  .border:hover{
+      border: 2px solid black;
+      color: white;
+      text-decoration: underline;
+      background-color: black;
+  }
+  
+  /* for the title : share a meal */
+  .title{
+  font-weight:bolder ;
+  font-size: 2rem;
+  display: flex;
+  margin-left: 5%;
+  #a{
+      color: white;
+  }
+  #b{
+      color: rgb(255, 106, 0);
+  }
+  }
+  
+  /* for other options in nav bar */
+  .menu{
+      list-style-type:none ;
+      width: 50%;
+  }
+  
+  ul{
+  list-style-type: none;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  margin-left: 20%;
+  }
+   
+  a{
+      font-size:1.5rem;
+      font-weight: 500;
+      text-decoration: none;
+      color: white;
+      border-radius: 50%;
+  }
+  }
+  
+  
+  
+  /* profile */
+  .b{
+      font-family: Arial, sans-serif;
+      margin-top: 2rem;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+    }
+    .container {
+      text-align: center;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      max-width: 400px;
+      position: relative;
+      left: 35%;
+      top: 13rem;
+    }
+    
+    h1 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    
+    h2 {
+      margin-bottom: 15px;
+      color: #555;
+    }
+    
+    .btn {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .btn:hover {
+      background-color: #0056b3;
+    }
+    
+    .btn.back {
+      background-color: #6c757d;
+    }
+    
+    .btn.back:hover {
+      background-color: #5a6268;
+    }
+    
+    .hidden {
+      display: none;
+    }
+    
+  
+    a{
+      text-decoration: none;
+    }
+  
+    p{
+      text-align: start;
+      line-height: 2rem;
+      padding-left: 1.5rem;
+    }
+  
+    form input{
+      height: 1.8rem;
+      margin: 0.8rem;
+      width:85%;
+    }
+  
+    #Ptitle{
+      display: flex;
+      text-align: center;
+     
+      i{
+       font-size: 4rem;
+       padding-right: 1.4rem;
+       padding-left: 1.2rem;
+      }
+    }
+  
+    .wrapper{
+      height: 42rem;
+      width: 85%;
+      background-color: yellow;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #createAcc{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content:center;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      h2{
+          padding: 1rem;
+      }
+      p{
+          width: 73.5%;
+          margin-left: 10rem;
+          margin-top: 1.5rem;
+          
+      }
+      .btn{
+          width: 73.6%;
+          margin-left: 10rem;
+      }
+      #back{
+          background-color: #555;
+          width: 72.5%;
+          height: 3%;
+          padding: 10px;
+          font-size: 16px;
+          color: #fff;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+          text-decoration: none;
+          text-align: center;
+          margin-right: 1rem;
+          margin-top: 0rem;
+      }
+      form input{
+          height: 1.8rem;
+          margin-left: 10rem;
+          margin-bottom: 1rem;
+          width:30%;
+        }
+  }
+  
+    .proof{
+      height: 3.5rem;
+      font-size: 0.9rem;
+      margin-left: 10rem;
+      margin-bottom: 1rem;
+      width:73.5%;
+      line-height: 1.5rem;
+      border:0.5px solid grey;
+      text-align: left;
+      padding-left: 0.5rem;
+      color: grey;
+      #file{
+          margin-left: 0px;
+          margin-top: 0px;
+      }
+    }
+  
+    .terms{
+      margin-left: 1rem;
+      #terms-btn{
+        width: 1.2rem;
+        margin-top: 12px;
+      }
+      display: flex;
+      align-items: center;
+    }
+
+
+    /* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .navbar {
+      padding: 1rem;
+  }
+
+  .menu ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .menu ul li {
+      margin: 0.5rem 0;
+  }
+}

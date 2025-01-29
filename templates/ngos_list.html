@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of Registered NGOs</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ngos_list.css') }}">
+</head>
+<body>
+
+<header>
+    <div class="navbar">
+        <div class="title">
+            <p id="a">SHARE A</p>
+            <p id="b">MEAL</p>
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="border"><a href="{{ url_for('index') }}">Home</a></li>
+                <li class="border"><a href="{{ url_for('about') }}">About Us</a></li>
+                <li class="border"><a href="{{ url_for('contact') }}">Contact</a></li>
+               
+            </ul>
+        </div>
+    </div>
+</header>
+
+<h2>List of Registered NGOs</h2>
+
+<!-- Display flash messages -->
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <ul>
+            {% for category, message in messages %}
+                <li class="{{ category }}">{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
+
+<!-- Display list of NGOs -->
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NGO Name</th>
+            <th>Contact Person</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Registration Number</th>
+            <th>Food Requirements</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for ngo in ngos %}
+        <tr>
+            <td>{{ ngo.id }}</td>
+            <td>{{ ngo.ngo_name }}</td>
+            <td>{{ ngo.contact_person }}</td>
+            <td>{{ ngo.email }}</td>
+            <td>{{ ngo.phone }}</td>
+            <td>{{ ngo.address }}</td>
+            <td>{{ ngo.registration_number }}</td>
+            <td>{{ ngo.food_requirements }}</td>
+            
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<footer>
+    <div class="footer_about">
+        <h5>About Us</h5>
+        The basic concept of this project is to collect excess/leftover food from donors...
+    </div>
+    <div class="footer_contact">
+        <h5>Contact</h5>
+        <p id="fp">
+            (+00) 0000 000 000
+            shareameal@gmail.com
+        </p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-solid fa-envelope"></i>
+    </div>
+    <div class="footer_title">
+        <p id="o">SHARE A MEAL</p>
+        <p id="fp">
+            Home | About | Services | Contact
+            Share A Meal © 2024
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

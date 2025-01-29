@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            /* background-color: antiquewhite; */
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: rgb(209, 145, 72);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar a{
+            color: azure;
+        }
+
+        
+        #a{
+            color: white;
+        }
+        #b{
+            color: rgb(255, 106, 0);
+        }
+
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            background-image: url("{{ url_for('static', filename='hero1.jpg') }}") ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100vw;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(184, 148, 148, 0.5);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        #wel{
+            color: orange;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .welcome h2{
+            display: flex;
+            justify-content: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            text-align: center;
+            margin: 25px;
+        }
+
+        /* Cards Section */
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* Services Section */
+        .services-section {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .service-item {
+            margin-top: 20px;
+        }
+
+        .service-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* News Section */
+        .news-section {
+            background-color: #3a2d1d;
+            padding: 50px 0;
+            color: white;
+        }
+
+        .news-section h2 {
+            color: white;
+        }
+
+        .news-content { 
+            background: white;
+            color: black;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        @keyframes moveLeftToRight {
+        0% {
+            transform: translateX(-100%); /* Start off-screen on the left */
+        }
+        100% {
+            transform: translateX(100vw); /* End off-screen on the right */
+        }
+    }
+
+    .pulse-color-text {
+        font-size: 45px;
+        font-weight: bold;
+        color: azure; /* Tomato color */
+        white-space: nowrap; /* Prevent the text from wrapping */
+        display: inline-block; /* Make sure the text moves inline */
+        animation: moveLeftToRight 8s linear infinite; /* Move left to right continuously */
+        /* text-shadow: ; */
+    }
+
+        .row{
+            margin: 2rem;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                height: 60vh;
+            }
+        }
+
+        .footer {
+            background-color: #222;
+            padding: 30px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            background-color: #121212;
+            color: #fff;
+        }
+
+        .footer .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #fdbb2d;
+        }
+
+        .footer .links a {
+            color: #fdbb2d;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        .footer .contact {
+            margin-top: 10px;
+        }
+
+        .footer .contact p {
+            margin: 5px 0;
+        }
+
+        .footer .social-icons a {
+            color: #fff;
+            font-size: 18px;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+
+        .footer .social-icons a:hover {
+            color: #fdbb2d;
+        }
+
+        @media (max-width: 768px) {
+            .footer {
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+            }
+
+            .footer .links, 
+            .footer .contact, 
+            .footer .social-icons {
+                margin-top: 10px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <div class="title">
+                <p id="a">SHARE A MEAL </p>
+                
+             </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="receipe.html">Receipes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="guidance.html">Guidance</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="signup.html">Sign In/Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="hero" background="pink" >
+       
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Share A Meal</h1>
+            <p><b>Share A Meal , Spread The love</p></b>
+            <h2>" Cutting food waste is a delicious way of saving money,<br>
+                helping to feed thw world and protect the planet "</h2>
+        </div>
+    </div>
+<div class="welcome">
+    <h2 class="text-center mb-4" id="wel">"Welcome to Share A Meal"</h2>
+
+    <h2>"Welcome to Share a Meal, a community-driven platform dedicated to reducing food waste and feeding those in need. Whether you have surplus food to donate, need assistance with meals, or want to volunteer as a delivery partner, we connect you with opportunities to make a meaningful impact. Together, we can ensure that no meal goes to waste and that every person has access to nourishing food."</p>
+   </h2>
+</div>
+    <div class="container my-5">
+        <div class="row">
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ url_for('static', filename='food-donation-box-being-prepared-by-volunteers.jpg') }}" class="card-img-top" alt="Koran X">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Become A Donor</b></h5>
+                        <p class="card-text">"Do you have extra food? Share it with those in need by donating through our platform. We work closely with local NGOs and food banks to ensure your contributions reach those who need them most."</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ url_for('static', filename='receiver.jpeg') }}" class="card-img-top" alt="Koran GT">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Become A Reciever</b></h5>
+                        <p class="card-text">"If you or someone you know is struggling to put food on the table, we're here to help. Request a meal from nearby donors or food banks quickly and confidentially through our platform. so lets come together."</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container services-section">
+        <h2>Steps</h2>
+        <div class="row text-center">
+            <div class="col-md-3 service-item">
+                <h3>01</h3>
+                <img src="{{ url_for('static', filename='account.jpg') }}" alt="Service 1">
+                <p>Create an account by providing your name, email, and password, or login if you already have an account.</p>
+            </div>
+            <br><br>
+            <div class="col-md-3 service-item">
+                <h3>02</h3>
+                <img src="{{ url_for('static', filename='donate.jpg') }}" alt="Service 2">
+                
+                <p>Decide whether to donate, recieve, or deliver food. Provide neccessary details, and confirm to proceed.</p>
+            </div>
+            <br><br>
+            <div class="col-md-3 service-item">
+                <h3>03</h3>
+                <img src="{{ url_for('static', filename='deliver.jpg') }}" alt="Service 3">
+           
+                <p>Track the status of actions and mark tasks as compeleted once the donations is received or the delivery is made.</p>
+            </div>
+            <br><br>
+            <div class="col-md-3 service-item">
+                <h3>04</h3>
+                <img src="{{ url_for('static', filename='celebrate.png') }}" alt="Service 4">
+                <p>You've made a positive impact by sharing or receiving a meal. Thank you for contributing to community!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="news-section">
+        <div class="container">
+            <h2 class="text-center mb-4">Be the part of upcoming Events</h2>
+            <div class="event">
+                <h1 class="pulse-color-text">Join Us for Amazing Events!</h1>
+              </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="{{ url_for('static', filename='Food_Day.jpg') }}" height="200px" class="img-fluid" alt="Community Impact">
+                </div>
+                <div class="col-md-7 news-content">
+                    <h4><b>World Food Day</b></h4>
+                    <p>Join us as we come together to celebrate World Food Day, a global initiative to raise awareness and take action against hunger and food insecurity. This year’s theme, “Water is Life, Water is Food: Leave No One Behind,” highlights the vital role of water in ensuring sustainable food systems for all.</p>
+                    <pre>
+📅 Date: October 16, 2025
+⏰ Time: 3:00 PM – 8:00 PM
+📍 Location: Central Park, New York City
+                    </pre>
+                    <p>Let’s work together to create a world where everyone has access to nutritious food and no one is left behind. Bring your friends and family to make this day a meaningful celebration of food, sustainability, and community.</p>
+                </div>
+            </div>
+            <div class="row">
+               
+                <div class="col-md-7 news-content">
+                    <h4><b>Zero Descrimination Day</b></h4>
+                   <p>Join us as we observe Zero Discrimination Day, a global movement promoting equality, inclusion, and the right for everyone to live with dignity—regardless of race, gender, nationality, disability, or any other status. This year’s theme, “Embracing Diversity, Ending Discrimination,” calls for collective action to create a world free from prejudice and injustice.</p>
+                    <pre>
+📅 Date: March 1, 2025
+⏰ Time: 3:00 PM – 8:00 PM
+📍 Location: Federation Square, Melbourne
+                    </pre>
+                    <p>Let’s stand together for equality, respect, and human rights for all. Bring your voice, your stories, and your support to make this day a powerful statement against discrimination.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="{{ url_for('static', filename='zerodiscrimination.jpg') }}" class="img-fluid" alt="Community Impact">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="{{ url_for('static', filename='internationalFoodList1.jpg') }}" class="img-fluid" alt="Community Impact">
+                </div>
+                <div class="col-md-7 news-content">
+                    <h4><b>International Day of Awareness of Food Loss and Waste</b></h4>
+                    <p>oin us in observing the International Day of Food Loss and Waste Awareness, a global initiative to highlight the importance of reducing food waste and creating sustainable food systems. Every year, millions of tons of food are lost or wasted, impacting food security, economies, and the environment. This year’s theme, “Reducing Food Waste: A Shared Responsibility”, encourages individuals, businesses, and communities to take action.</p>
+                    <pre>
+📅 Date: September 29, 2025
+⏰ Time: 2:00 PM – 7:00 PM
+📍 Location: Trafalgar Square, London
+                    </pre>
+                    <p>
+                        Let's work together to build a future where food is valued, resources are conserved, and waste is minimized. Bring your friends and family to be part of the change!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div>
+            <div class="logo">Share A Meal</div>
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">Blog</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="contact">
+            <p>📍 309 - Rupa Solitaire, Mahape, Navi Mumbai - 400710</p>
+            <p>📞 +91 22-27782183</p>
+            <p>📧 support@eduonix.com</p>
+        </div>
+       
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+   
+</head>
+<body>
+
+   <header>
+    <div class="navbar">
+    <div class="title">
+       <p id="a">SHARE  A </p> 
+       <p id="b"> MEAL</p>
+    </div>
+    <div class="menu">
+    <ul>
+      <li class="border"><a href="index.html">Home</a></li>
+     <li class="border"><a href="about.html">About Us</a></li>
+     <li class="border"><a href="contact.html">Contact</a></li>
+     <li class="border"><a href="signup.html">Sign In/Sign Up</a></li>
+    </ul>
+    </div>
+    </div>
+   </header>
+
+   <div class="section">
+      <div class="card">
+         <pre> SHARE A  MEAL , SPREAD  THE  LOVE.</pre>
+      </div>
+      <div class="tagline">
+         <pre>
+         “Cutting food waste is a delicious way of saving money,
+          helping to feed the world and protect the planet.”
+         </pre> 
+      </div>
+   </div>
+
+      <div class="main">
+
+      <h2>"Welcome to Share A Meal"</h2>
+     <p>"Welcome to Share a Meal, a community-driven platform dedicated to reducing food waste and feeding those in need. Whether you have surplus food to donate, need assistance with meals, or want to volunteer as a delivery partner, we connect you with opportunities to make a meaningful impact. Together, we can ensure that no meal goes to waste and that every person has access to nourishing food."</p>
+
+     <div class="action-container">
+
+     <div class="action">
+      <h4><i class="fa-solid fa-bowl-food"></i> Become a Donor</h4>
+   
+      <p >Do you have extra food? Share it with those in need by donating through our platform. We work closely with local NGOs and food banks to ensure your contributions reach those who need them most."</p></a>
+     </div>
+     <div class="action">
+      <h4> <i class="fa-solid fa-utensils"></i>Become a Reciever</h4>
+      <p>"If you or someone you know is struggling to put food on the table, we're here to help. Request a meal from nearby donors or food banks quickly and confidentially through our platform."</p></a>
+     </div>
+    
+
+      </div>
+   </div>
+
+      <h3><center>Steps</center></h3>
+      <div class="steps-container">
+         <div class="step">
+            <img src="{{ url_for('static', filename='account.jpg') }}" alt="Register">
+             <div class="step-number">1</div>
+             <div class="step-description">
+                 Create an account by providing your name, email, and password, or login if you already have an account.
+             </div>
+         </div>
+         <i class="fa-solid fa-arrow-right"></i>
+         <div class="step">
+            <img src="{{ url_for('static', filename='donate.jpg') }}" alt="Donate Now">
+             <div class="step-number">2</div>
+             <div class="step-description">
+                 Decide whether to donate, recieve, or deliver food. Provide neccessary details, and confirm to proceed.
+             </div>
+         </div>
+         <i class="fa-solid fa-arrow-right"></i>
+         <div class="step">
+            <img src="{{ url_for('static', filename='deliver.jpg') }}"alt="Delivery" height="105px">
+             <div class="step-number">3</div>
+             <div class="step-description">
+                 Track the status of actions and mark tasks as compeleted once the donations is received or the delivery is made.
+             </div>
+         </div>
+         <i class="fa-solid fa-arrow-right"></i>
+         <div class="step">
+            <img src="{{ url_for('static', filename='celebrate.png') }}" alt="Congratulations" height="105px">
+             <div class="step-number">4</div>
+             <div class="step-description">
+                 You've made a positive impact by sharing or receiving a meal. Thank you for contributing to community!
+             </div>
+         </div>
+         
+     </div>
+ 
+
+      <div class="delivery">
+         <h3>Door Pickup</h3>
+         <p>"Your donate will be immediately collected and sent to needy people"</p>
+         <video src="{{ url_for('static', filename='delivery.mp4') }}" height="500px" autoplay loop></video>
+      </div>
+     
+   <footer>
+      <div class="footer_about">
+        <h5>About Us</h5>
+         The basic concept of this project Food Waste Management is to collect the excess/leftover food from donors such as hotels, restaurants, marriage halls , etc and distribute to the needy people .
+      </div>
+      <div class="footer_contact">
+         <h5>Contact</h5>
+         <p id="fp">
+            (+00) 0000 000 000 
+            shareameal@gmail.com
+         </p>
+         <i class="fa-brands fa-facebook"></i>
+         <i class="fa-brands fa-square-instagram"></i>
+         <i class="fa-brands fa-square-twitter"></i>
+         <i class="fa-solid fa-envelope"></i>
+      </div>
+      <div class="footer_title"> 
+         <p id="o"> SHARE A MEAL </p>
+         <p id="fp">
+            Home | About | Services | Contact 
+            Share A Meal © 2024
+         </p>
+
+   </div>
+   </footer>
+</body>
+</html> -->

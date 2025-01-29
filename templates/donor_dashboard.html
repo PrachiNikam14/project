@@ -1,0 +1,43 @@
+<!-- Main Page Of Donor DashBoard -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donor DashBoard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='donor_dash.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Donor Dashboard</h1>
+            <a href="{{ url_for('logout') }}" class="logout">Logout</a>
+
+        </div>
+    </div>
+    <div class="content">
+    <div class="sidebar">
+        <ul>
+                <li> <p class="main">&equiv; Main Menu </p></li>
+                <br> 
+            <li><a href="{{ url_for('donor_dashboard') }}">DashBoard</a></li> 
+            <li><a href="{{ url_for('donate') }}">Donate</a></li>  
+            <li><a href="{{ url_for('foodlist') }}">Food List</a></li>
+            <li><a href="{{ url_for('requests') }}">Requests</a></li>
+        </ul> 
+    </div>
+    <div class="main-content">
+        <div class="cards">
+            <div class="card green"> <a href="{{ url_for('donate') }}">Donate</a> <span>1</span>
+            </div>
+            <div class="card red"><a href="{{ url_for('foodlist') }}">Food List</a><span>2</span>
+            </div>
+            <div class="card red"><a href="{{ url_for('requests') }}">Requests</a><span>2</span>
+            </div>
+           
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>

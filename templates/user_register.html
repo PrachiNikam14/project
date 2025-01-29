@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO Registration</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='signup.css') }}">
+    <style>
+      body{
+        background-color: #f4f4f4;
+      }
+    </style>
+</head>
+<body>
+  <div class="b">
+    <div class="wrapper">
+        <div id="createAcc">
+            <h2>Create Account</h2>
+            <form action="{{ url_for('register_user') }}" method="POST" enctype="multipart/form-data">
+
+              <input type="text" id="name" name="name" placeholder=" your Name: " required>
+              <input type="number" id="aadhar-no" name="aadhar-no" placeholder=" Enter your Aadhar Card No.: " required>
+              <input type="email" id="email" name="email" placeholder=" Enter your Email Id: ">
+              <input type="text" id="username" name="username" placeholder=" Create Username :" required>
+              <input type="tel" id="phone" name="phone" placeholder=" Enter your Phone No.: " required>
+              <input type="password" id="password" name="password"  placeholder=" Create Password :" required>
+              <input type="text" id="city" name="city" placeholder=" Enter your City :" required>
+              <input type="password" id="confirm_password" name="confirm_password"  placeholder=" Confirm Password :" required>
+              <input type="text" id="add" name="add"  placeholder=" Enter your Address :" required>
+              <div class="proof">
+                Upload your Id-Proof : 
+                <br>
+                <input type="file" id="file" name="file" required>
+              </div>
+              <p id="t" class="hidden">"I understand that providing false or fraudulent information during registration is strictly prohibited and may result in legal action and permanent disqualification. I confirm that the details I provide are accurate and truthful."</p>
+              <div class="terms">
+                <input type="checkbox" id="terms-btn" onclick="check()">
+                <label for="checkbox">I agree to the <a href="#t" onclick="showterm()">Terms and Conditions</a></label>
+              </div>
+              <button type="submit" class="btn" id="register-btn" disabled>Create Account</button>
+             
+            </form>
+            <a href="signup.html" id="back">Back</a>
+          </div>
+    </div>
+  </div>
+
+    <script>
+        function showterm(){
+            document.getElementById('t').classList.remove('hidden');
+        }
+        function check(){
+  let terms = document.getElementById('terms-btn');
+  let register = document.getElementById('register-btn');
+    register.disabled = ! terms.checked;
+  }
+    </script>
+</body>
+</html>

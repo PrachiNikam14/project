@@ -1,0 +1,73 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Feedback Cards Styling */
+.feedbacks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.feedback-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+}
+
+.feedback-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feedback-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Rating Styling */
+.star {
+    color: gold;
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+/* If no feedbacks */
+.feedbacks p {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+}

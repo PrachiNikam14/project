@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+    /* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.sidebar h2{
+    
+            text-align: center;
+            margin-bottom: 20px;
+      
+}
+
+
+.header {
+    /* background-color:white;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; */
+    margin-top: 18px;
+    background: white;
+            padding: 14px 24px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            margin-left: 270px;
+            margin-right: 15px;   
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+/* .logout {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.logout i {
+    margin-right: 5px;
+} */
+.logout-btn {
+            background: red;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li:hover {
+            background: #495057;
+        }
+
+/* Main Content */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    flex: 1;
+}
+.h3{
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.card.green {
+    background: white;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+}
+
+.card.green:hover{
+    background: #007bff;
+            color: white;
+            transform: scale(1.05);
+}
+
+.card.blue {
+    background: white;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+}
+
+.card.blue:hover{
+    background: #007bff;
+            color: white;
+            transform: scale(1.05);
+}
+
+.card span {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .header {
+        padding: 15px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 18px;
+    }
+
+    .logout {
+        font-size: 16px;
+    }
+
+    .sidebar ul li a {
+        font-size: 16px;
+    }
+
+    .card span {
+        font-size: 24px;
+    }
+}
+
+</style>  
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 class="logo">NGO Dashboard</h2>
+            <button class="logout-btn">Logout</button>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <h2>NGO Menu</h2>
+              <ul>
+                <li><a href="ngo.html">Dashboard</a></li>
+                <li><a href="foodDetails_ngo.html">Food Details</a></li>
+                <li><a href="foodDonation_ngo.html">Accept Donation</a></li>
+              </ul>
+            </div>
+            <div class="main-content">
+                <h3 class="h3">Dashboard Overview</h3>
+                <br>
+              <div class="cards">
+                <div class="card green">Total City<br><span>15</span></div>
+                <div class="card blue">Total Food Donor<br><span>5</span></div>
+              </div>
+        </div>
+      </div>
+</body>
+</html>
+
+<!-- Page For NGO Dashboard -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO DashBoard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='ngo_dash.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>NGO Dashboard</h1>
+        </div>
+    <div class="sidebar">
+        <ul>
+            <li> <p class="main">&equiv; Main Menu </p></li>
+            <br>
+            <li><a href="fooddetail_ngodash.html">View Food Details</a></li>
+            <li><a href="acceptdonation_ngodash.html">Accept Doantion</a></li>
+        </ul> 
+        <button class="logout">Logout</button>
+    </div>
+</body>
+</html> -->

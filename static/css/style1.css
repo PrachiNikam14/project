@@ -1,0 +1,238 @@
+/* General Reset and Body Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Ensures image scales with screen size */
+}
+
+/* Navigation Bar */
+.navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #14293f;
+    padding: 0 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
+
+/* Hero Section */
+.section {
+    position: relative;
+    background-image: url("HeroSection.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.7); /* Ensure transparency and better readability */
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 2; /* Make sure the card is above the background */
+}
+
+.card pre {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/* Tagline */
+.tagline {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #7ebec0;
+    z-index: 1; /* Ensure it stays below the card */
+    text-align: center;
+}
+
+.tagline pre {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    color: white;
+}
+
+/* Action Container */
+.action-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    padding: 20px;
+}
+
+.action {
+    background-color: orange;
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(33% - 40px); /* Adjust width for three columns with gaps */
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.action:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.action h4 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.action p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* Steps Section */
+.steps-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.step {
+    width: calc(25% - 20px);
+    text-align: center;
+    margin: 10px;
+}
+
+.step img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.step-number {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.step-description {
+    font-size: 1.3rem;
+}
+
+/* Delivery Section */
+.delivery {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+/* Footer */
+footer {
+    background-color: #414141;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer_about, .footer_contact, .footer_title {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer_about h5, .footer_contact h5, .footer_title h5 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.footer_about p, .footer_contact p, .footer_title p {
+    font-size: 1.2rem;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .action {
+        width: calc(50% - 40px);
+    }
+
+    .step {
+        width: calc(50% - 20px);
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section {
+        height: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .action {
+        width: 100%;
+    }
+
+    .step {
+        width: 100%;
+    }
+}

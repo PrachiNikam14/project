@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account Options</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='account1.css') }}">
+</head>
+<body>  <div class="container">
+    <h1>Welcome</h1>
+    <div id="main-options">
+      <button class="btn" onclick="showCreateAccount()">Create an Account</button>
+      <button class="btn" onclick="showSignIn()">Sign In</button>
+    </div>
+
+    <div id="create-account-options" class="hidden">
+      <h2>Select Account Type</h2>
+      <button class="btn" onclick="showUserRegistration()">User</button>
+      <button class="btn" onclick="showNgoRegistration()">NGO</button>
+      <button class="btn back" onclick="goBack()">Back</button>
+    </div>
+
+    <div id="sign-in-options" class="hidden">
+      <h2>Sign In</h2>
+      <form action="/login" method="post">
+        <input type="text" id="username" name="username" placeholder="Enter Username" required>
+        <input type="password" id="password" name="password" placeholder="Enter Password" required>
+        <button type="submit" class="btn">Sign In</button>
+        <button type="button" class="btn back" onclick="goBack()">Back</button>
+      </form>
+    </div>
+
+    <div id="user-registration" class="hidden">
+      <h2>Create User Account</h2>
+      <form action="/register/user" method="post">
+        <input type="text" id="name" name="name" placeholder="Enter your Name:" required>
+        <input type="email" id="email" name="email" placeholder="Enter your Email Id:" required>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your Phone No.:" required>
+        <input type="text" id="username" name="username" placeholder="Create Username:" required>
+        <input type="password" id="password" name="password" placeholder="Create Password:" required>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password:" required>
+
+        <div class="terms">
+          <input type="checkbox" id="terms-btn-user" onclick="check('user')">
+          <label for="terms-btn-user">
+            "I understand that providing false or fraudulent information during registration is strictly prohibited and may result in legal action and permanent disqualification. I confirm that the details I provide are accurate and truthful." I agree to the Terms and Conditions
+          </label>
+        </div>
+        <button type="submit" class="btn" id="register-btn-user" disabled>Create Account</button>
+        <button type="button" class="btn back" onclick="goBack()">Back</button>
+      </form>
+    </div>
+
+    <div id="ngo-registration" class="hidden">
+      <h2>Create NGO Account</h2>
+      <form action="/register/ngo" method="post">
+        <input type="text" id="name" name="name" placeholder="Enter NGO Name:" required>
+        <input type="email" id="email" name="email" placeholder="Enter NGO Email Id:" required>
+        <input type="tel" id="phone" name="phone" placeholder="Enter NGO Phone No.:" required>
+        <input type="text" id="username" name="username" placeholder="Create Username:" required>
+        <input type="password" id="password" name="password" placeholder="Create Password:" required>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password:" required>
+
+        <div class="terms">
+          <input type="checkbox" id="terms-btn-ngo" onclick="check('ngo')">
+          <label for="terms-btn-ngo">
+            "I understand that providing false or fraudulent information during registration is strictly prohibited and may result in legal action and permanent disqualification. I confirm that the details I provide are accurate and truthful." I agree to the Terms and Conditions
+          </label>
+        </div>
+        <button type="submit" class="btn" id="register-btn-ngo" disabled>Create Account</button>
+        <button type="button" class="btn back" onclick="goBack()">Back</button>
+      </form>
+    </div>
+  </div>
+  
+  <script>
+    function showCreateAccount() {
+      document.getElementById('main-options').classList.add('hidden');
+      document.getElementById('create-account-options').classList.remove('hidden');
+    }
+
+    function showSignIn() {
+      document.getElementById('main-options').classList.add('hidden');
+      document.getElementById('sign-in-options').classList.remove('hidden');
+    }
+
+    function showUserRegistration() {
+      document.getElementById('create-account-options').classList.add('hidden');
+      document.getElementById('user-registration').classList.remove('hidden');
+    }
+
+    function showNgoRegistration() {
+      document.getElementById('create-account-options').classList.add('hidden');
+      document.getElementById('ngo-registration').classList.remove('hidden');
+    }
+
+    function goBack() {
+      document.querySelectorAll('.hidden').forEach(el => el.classList.add('hidden'));
+      document.getElementById('main-options').classList.remove('hidden');
+    }
+
+    function check(type) {
+      let terms = document.getElementById(`terms-btn-${type}`);
+      let register = document.getElementById(`register-btn-${type}`);
+      register.disabled = !terms.checked;
+    }
+
+    
+    
+    
+  </script>
+  
+</body>
+</html>
+

@@ -1,0 +1,1326 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-873-972
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:19:36] "[35m[1mGET /donors HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:19:36] "[36mGET /donors?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:19:36] "[36mGET /donors?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:19:36] "GET /donors?__debugger__=yes&cmd=resource&f=console.png&s=BarKRwEgIGEkUz5hD0iO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:19:36] "[36mGET /donors?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-873-972
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:22:38] "[35m[1mGET /donors HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:22:38] "[36mGET /donors?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:22:38] "[36mGET /donors?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:22:38] "GET /donors?__debugger__=yes&cmd=resource&f=console.png&s=ZqAuchcvCEW0x2QpSd0C HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:22:38] "[36mGET /donors?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-873-972
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:24:04] "[35m[1mGET /donors HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:24:04] "[36mGET /donors?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:24:04] "[36mGET /donors?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:24:04] "GET /donors?__debugger__=yes&cmd=resource&f=console.png&s=qFca2MYEJFgvanuQgXrP HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:24:04] "[36mGET /donors?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-873-972
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:26:38] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:26:38] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:26:48] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:26:49] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:26:49] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:09] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:09] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:14] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:14] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:14] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:14] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:14] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:14] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:14] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:14] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:16] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:16] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:17] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:17] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c312f17sm17730875ad.238 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:22] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2aab58d2sm2032309b3a.142 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:23] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2a9f6d45sm1954339b3a.80 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:25] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2d5fc4764sm2399018a91.47 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:27] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c346ed7sm17699945ad.264 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:29] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2d5df1eebsm2432234a91.17 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:30] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c33e43bsm17727195ad.262 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:31] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2ab0f0adsm1944390b3a.210 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:33] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c216156sm17812995ad.193 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:34] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8bc1cb13sm17790345ad.77 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:36] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c0e74c0sm17795815ad.121 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:38] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8bad3379sm17758855ad.22 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:39] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2d5f0a2b7sm2431920a91.27 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:41] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2e93b205asm1163970a91.16 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:42] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2a9e971fsm1962655b3a.29 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:44] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2a5ca9a48sm4698174a91.51 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:46] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2a5aacaebsm4688049a91.39 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:48] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2d5fa92e1sm2406819a91.35 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:49] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2d5fc57desm2387661a91.50 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:51] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-7ea449092edsm1912264a12.47 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:53] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2d177b8dasm2524830a91.45 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:54] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2a9ec1d1sm2024275b3a.16 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:56] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c348a05sm17801105ad.282 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:57] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2ab0f2d8sm1946539b3a.217 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:27:59] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c2166edsm17747835ad.226 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:00] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c2168f1sm17733785ad.228 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:03] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c2167d9sm17627035ad.229 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:05] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2a5aaae34sm4686716a91.46 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:06] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2a9f8712sm1957268b3a.86 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:09] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c0e7466sm17748525ad.138 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:10] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2aaba4fesm2013960b3a.170 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:12] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-7ea4495a975sm1905146a12.59 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:13] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c34666bsm17696255ad.279 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:15] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2a9f6fa7sm1963683b3a.83 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:17] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c212b61sm17688445ad.182 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:19] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8bc125d8sm17909945ad.109 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:20] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-7ea448f93fbsm1898467a12.23 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:22] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c0e747fsm17785515ad.143 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:23] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2d5f0a3f4sm2415778a91.29 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:25] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2a5caa753sm4684135a91.54 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:27] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2ea9d4145sm1083365a91.18 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:28] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2aab9b29sm2009875b3a.147 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:30] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8bc13315sm17857245ad.107 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:32] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8b2b4ff3sm17911025ad.0 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:34] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8bc1cb13sm17802475ad.77 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:35] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8bad3390sm17856885ad.38 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:28:44] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c2133besm17894045ad.211 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:37:58] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2c1b05826sm1701693a91.0 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:39:00] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8badc69bsm18025985ad.17 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:39:49] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2a9e95d8sm1974932b3a.42 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:39:51] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c212d40sm17953195ad.195 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:39:54] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c2166edsm17895895ad.226 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:39:57] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8bad32a0sm17952055ad.11 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:00] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2a5aacaebsm4709368a91.39 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:04] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c21da4dsm17988885ad.189 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:07] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2d5dd2724sm2394908a91.5 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:10] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-7ea449596c8sm1922789a12.71 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:12] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8bc407c1sm17969365ad.119 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:13] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-7ea449092edsm1927868a12.47 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:15] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2aa0c8b6sm2032614b3a.92 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:17] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2a9eb274sm1984844b3a.32 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:20] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8bc0d3c4sm17870215ad.91 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:22] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-7ea44969bd1sm1886252a12.93 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:24] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2d5eeafb5sm2468635a91.20 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:27] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8bc1a160sm17945865ad.102 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:29] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c33c866sm17814335ad.241 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:31] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c212441sm17891315ad.183 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:33] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2a9e9709sm1987053b3a.20 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:35] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e44855ca4sm64467b3a.192 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:38] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c33cbb9sm17905975ad.249 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:39] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2a5ca9db5sm4727538a91.47 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:41] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2e93b205asm1186924a91.16 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:43] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2a9f7813sm1977548b3a.45 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:45] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c93c5927csm13711095ad.93 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:46] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2a55fd43asm4745601a91.14 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:48] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-7ea4496831bsm1914549a12.83 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:49] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2a9f522esm1981328b3a.69 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:52] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c0e760asm17917585ad.174 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:53] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2a5ca9a48sm4721378a91.51 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:56] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2a9f53e0sm1978391b3a.68 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:40:58] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c0e7671sm17911605ad.129 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:41:00] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8bc0d250sm17960005ad.72 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:41:02] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2aab9b80sm1961906b3a.157 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:41:04] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e2d5fc57desm2410936a91.50 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:41:06] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c31c139sm17948205ad.232 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:41:08] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c35f35fsm17792675ad.300 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:41:10] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8bad9b4asm17937155ad.45 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:41:11] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8bc0ca82sm17959225ad.68 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:41:13] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8c375d86sm17851725ad.309 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:41:19] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e412430d4sm238514b3a.10 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:41:22] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor prachinikam2005@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-7ea448f9440sm1941609a12.30 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:41:24] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-873-972
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:41:27] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-873-972
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:41:44] "[32mGET /accept_donor/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:41:44] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 11:41:44] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-873-972
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:14:06] "[32mGET /delete_donor/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:14:07] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:14:07] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+ERROR:root:Failed to send email to donor abc@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c8bc19b5asm18378885ad.86 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:14:11] "[32mGET /accept_donor/2 HTTP/1.1[0m" 302 -
+ERROR:root:Failed to send email to donor abc@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71e2aaba231sm2008909b3a.164 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:14:12] "[32mGET /accept_donor/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:14:12] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:14:12] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-873-972
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:18:10] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:18:10] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:18:14] "[32mGET /accept_donor/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:18:14] "[32mGET /accept_donor/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:18:14] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:18:14] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:18:15] "[32mGET /accept_donor/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:20:54] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:20:54] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:20:55] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:20:55] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:20:58] "[32mGET /accept_donor/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:20:58] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:20:58] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-873-972
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:27] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:33] "[32mGET /accept_donor/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:33] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:33] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:37] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:37] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:39] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:39] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:39] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:39] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:39] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:39] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:41] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:21:41] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:07] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:07] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:14] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:14] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:19] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:19] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:25] "[32mGET /accept_donor/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:25] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:25] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-873-972
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:57] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:57] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:57] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:57] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:22:57] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:23:04] "GET /haveanaccount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:23:04] "[36mGET /static/css/account.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:24:26] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:24:29] "GET /haveanaccount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:24:29] "[36mGET /static/css/account.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:24:34] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:24:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:24:34] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:24:34] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:24:34] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:24:34] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:24:34] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:25:02] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:25:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:25:02] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:25:02] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:25:02] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:25:02] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:25:04] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:25:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-873-972
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:35:27] "[35m[1mGET /profile HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:35:27] "GET /profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:35:27] "GET /profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:35:27] "GET /profile?__debugger__=yes&cmd=resource&f=console.png&s=qbQmGqre8egSr5CB582C HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:35:27] "GET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:35:55] "[35m[1mGET /profile HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:35:55] "[36mGET /profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:35:55] "[36mGET /profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:35:55] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png&s=qbQmGqre8egSr5CB582C HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:35:55] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:35:56] "[35m[1mGET /profile HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:35:56] "[36mGET /profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:35:56] "[36mGET /profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:35:56] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png&s=qbQmGqre8egSr5CB582C HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:35:56] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:37:36] "[35m[1mGET /profile HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:37:36] "[36mGET /profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:37:36] "[36mGET /profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:37:36] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png&s=qbQmGqre8egSr5CB582C HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:37:36] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:42] "[35m[1mGET /profile HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:42] "[36mGET /profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:42] "[36mGET /profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:42] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png&s=qbQmGqre8egSr5CB582C HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:42] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:42] "[35m[1mGET /profile HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:43] "[36mGET /profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:43] "[36mGET /profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:43] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png&s=qbQmGqre8egSr5CB582C HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:43] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:43] "[35m[1mGET /profile HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:43] "[36mGET /profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:43] "[36mGET /profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:43] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png&s=qbQmGqre8egSr5CB582C HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:43] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:44] "[35m[1mGET /profile HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:44] "[36mGET /profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:44] "[36mGET /profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:44] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png&s=qbQmGqre8egSr5CB582C HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:38:44] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-873-972
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:41:31] "[33mGET /profile HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:10] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:22] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:22] "[36mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:22] "[36mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:22] "GET /index?__debugger__=yes&cmd=resource&f=console.png&s=36WhKpSGIQlJytt2rKMn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:22] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-873-972
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:51] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:51] "[36mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:51] "[36mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:51] "GET /index?__debugger__=yes&cmd=resource&f=console.png&s=kz8nRQFp2NEET4NoF4Do HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:51] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:52] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:52] "[36mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:52] "[36mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:52] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png&s=kz8nRQFp2NEET4NoF4Do HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:42:52] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:30] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:30] "[36mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:30] "[36mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:30] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png&s=kz8nRQFp2NEET4NoF4Do HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:30] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:31] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:31] "[36mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:31] "[36mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:31] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png&s=kz8nRQFp2NEET4NoF4Do HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:31] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:31] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:31] "[36mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:31] "[36mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:31] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png&s=kz8nRQFp2NEET4NoF4Do HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:31] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:31] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:31] "[36mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:31] "[36mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:31] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png&s=kz8nRQFp2NEET4NoF4Do HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:31] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:58] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:58] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:58] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:58] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:58] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:43:58] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:44:08] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:44:08] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:45:04] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:45:04] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:45:34] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:45:34] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:45:37] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:45:37] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:45:42] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:45:42] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:46:04] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:46:04] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:46:16] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:46:16] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:46:17] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:46:17] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:46:40] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:46:40] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:46:44] "[32mGET /accept_donor/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:46:44] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:46:44] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:46:56] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:47:30] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:47:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:47:31] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:47:31] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:47:31] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:47:31] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 12:47:31] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-873-972
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:45:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:45:52] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:45:52] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:45:52] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:45:52] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:45:52] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:45:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:45:52] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:45:52] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:45:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:45:52] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:46:23] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:46:23] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:46:26] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:46:26] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:46:30] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:46:30] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:47:26] "[32mPOST /submit-registration HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:47:26] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:47:34] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:47:34] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:48:16] "[32mPOST /submit-registration HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:48:16] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:48:21] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:48:21] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:48:23] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:48:23] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:48:45] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:48:45] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:48:46] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:48:46] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:48:51] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:48:52] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:49:38] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:49:38] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:49:42] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:49:42] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:50:25] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:50:25] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:50:28] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:50:28] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:51:12] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:51:12] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:51:16] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:51:16] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:51:17] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:51:17] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:51:38] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:51:38] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 13:51:38] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-873-972
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:35:33] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:35:33] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:35:33] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:35:33] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:35:33] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:35:33] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:35:33] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:35:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:35:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:42:20] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:42:20] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:42:51] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:42:51] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:42:59] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:42:59] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:43:12] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:43:12] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:43:17] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:43:17] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:43:30] "[32mGET /accept_donor/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:43:31] "[32mGET /accept_donor/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:43:31] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:43:31] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:43:31] "[32mGET /accept_donor/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:43:37] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:43:37] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:43:41] "[32mGET /accept_donor/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:43:41] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:43:41] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:44:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:44:26] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:44:26] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:44:26] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:44:26] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:44:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:44:26] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:44:26] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:45:29] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:45:30] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:45:32] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:45:32] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:45:51] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:45:51] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:45:56] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:45:57] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Oct/2024 14:52:07] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:06:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:06:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:06:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:06:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:06:59] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:06:59] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:06:59] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:06:59] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:06:59] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:15] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:15] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:15] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:15] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:15] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:21] "GET /aboutus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:21] "[35m[1mGET /static/videos/Food%20Donation.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:26] "GET /contactus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:31] "[35m[1mGET /haveanaccount HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:31] "GET /haveanaccount?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:31] "GET /haveanaccount?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:31] "GET /haveanaccount?__debugger__=yes&cmd=resource&f=console.png&s=Nt75snreHnZkjYeo2Xl0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:31] "GET /haveanaccount?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:49] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:07:49] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:08:30] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:08:30] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:08:37] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:08:37] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:08:57] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:08:57] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:09:01] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:09:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:09:01] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:09:01] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:09:01] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:09:01] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:09:02] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:09:05] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:09:05] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:09:39] "[32mPOST /submit-registration HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:09:39] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:09:45] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:09:45] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:06] "[32mGET /accept_donor/5 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:06] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:06] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:17] "[32mGET /accept_donor/6 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:17] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:17] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:26] "[32mGET /delete_donor/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:26] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:26] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:31] "[32mGET /delete_donor/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:31] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:31] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:38] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:49] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:49] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:55] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:10:55] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:13:15] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:13:15] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:21:20] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:21:20] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:21:26] "[35m[1mGET /ngoregistration HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:21:26] "GET /ngoregistration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:21:26] "GET /ngoregistration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:21:26] "GET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png&s=e9Tt5tbeLDk4sjUcFYH1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:21:26] "GET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:21:59] "[35m[1mGET /ngoregistration HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:21:59] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:21:59] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:21:59] "GET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png&s=Efrihcx5y1X7s9rj9Mg0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:21:59] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:22:00] "[35m[1mGET /ngoregistration HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:22:00] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:22:00] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:22:00] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png&s=Efrihcx5y1X7s9rj9Mg0 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:22:00] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:22:22] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:22:22] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:22:28] "[35m[1mGET /donors HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:22:29] "[36mGET /donors?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:22:29] "[36mGET /donors?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:22:29] "GET /donors?__debugger__=yes&cmd=resource&f=console.png&s=QmsDGdVuFei8KI5tVX7I HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:22:29] "[36mGET /donors?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:29:15] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:27] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:28] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:28] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:28] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:28] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:28] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:34] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:34] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:38] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:39] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:42] "[35m[1mGET /donors HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:42] "[36mGET /donors?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:42] "[36mGET /donors?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:39:42] "GET /donors?__debugger__=yes&cmd=resource&f=console.png&s=iHxsmM6Lfj6nXIHrqmmC HTTP/1.1" 200 -
+ERROR:flask_migrate:Error: Path doesn't exist: 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\migrations'.  Please use the 'init' command to create a new scripts folder.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:45:35] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:45:35] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:45:46] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:45:48] "[35m[1mGET /donor_register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:45:48] "[36mGET /donor_register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:45:48] "[36mGET /donor_register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:45:48] "GET /donor_register?__debugger__=yes&cmd=resource&f=console.png&s=CsvhgEQ4klWZSNERrdDU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:45:48] "[36mGET /donor_register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:52:18] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:52:18] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:52:21] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:52:21] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:52:51] "[31m[1mGET /ngoregistration HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:52:58] "[31m[1mGET /ngoregistration HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:54:43] "[33mGET /ngoregistration HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:54:44] "[33mGET /ngoregistration HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:55:31] "[31m[1mGET /ngoregistration HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:55:32] "[31m[1mGET /ngoregistration HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:55:52] "[31m[1mGET /ngoregistration HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:57:21] "[35m[1mGET /ngoregistration HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:57:21] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:57:21] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:57:21] "GET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png&s=yQq2laLV7JGsH9QpzBHm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 17:57:21] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:01:21] "[35m[1mGET /ngoregistration HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:01:21] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:01:21] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:01:21] "GET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png&s=DbLDe02IUXiewXorDC8v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:01:21] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:01:22] "[35m[1mGET /ngoregistration HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:01:22] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:01:22] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:01:22] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png&s=DbLDe02IUXiewXorDC8v HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:01:22] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:01:23] "[35m[1mGET /ngoregistration HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:01:23] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:01:23] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:01:23] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png&s=DbLDe02IUXiewXorDC8v HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:01:23] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:03:04] "[35m[1mGET /ngoregistration HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:03:04] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:03:04] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:03:04] "GET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png&s=ygM4AkGVZv2F08X0Nw2W HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:03:04] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:04:12] "[35m[1mGET /ngoregistration HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:04:12] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:04:12] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:04:12] "GET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png&s=dUVHhEtp9829MFB9Iq0t HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:04:12] "[36mGET /ngoregistration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:05:16] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:05:16] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:05:39] "[32mPOST /ngoregistration HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:05:39] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:05:44] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:05:44] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:05:46] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:05:46] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:10:27] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:10:27] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:10:30] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:10:30] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:10:35] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:10:35] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:11:09] "[35m[1mPOST /ngoregistration HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:11:18] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:11:18] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:11:19] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:11:19] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:14:00] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:14:00] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:14:02] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:14:02] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:14:05] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:14:05] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:14:30] "[35m[1mPOST /ngoregistration HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:14:39] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:16:39] "[35m[1mPOST /ngoregistration HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:16:41] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:19:01] "[35m[1mPOST /ngoregistration HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:19:10] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:19:10] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:19:11] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:19:11] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:19:41] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:19:41] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:19:59] "POST /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:20:04] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:20:04] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:20:06] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:20:06] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:16] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:16] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:17] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:17] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:20] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:20] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:20] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:20] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:20] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:20] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:20] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:20] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:20] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:20] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:27] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:27] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:27] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:27] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:22:27] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:25:25] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:25:25] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:25:49] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:25:49] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:25:53] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:25:53] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:00] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:00] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:02] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:02] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:09] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:09] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:10] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:10] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:17] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:17] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:35] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:35] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:40] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:40] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:48] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:26:48] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:27:40] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:27:40] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:27:41] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:27:41] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:29:57] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:29:57] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:30:00] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:30:00] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:30:05] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:30:05] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:30:25] "POST /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:30:29] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:30:29] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:30:34] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:30:34] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:30:35] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:30:35] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:31:25] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:31:25] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:31:34] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:31:34] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:31:35] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:31:35] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:34:54] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:34:54] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:34:58] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:34:58] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:35:20] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:35:20] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:35:24] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:35:24] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:35:27] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:35:27] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:35:32] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:35:32] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:35:34] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:35:34] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:39:46] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:39:47] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:40:09] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:40:09] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:40:16] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:40:16] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:40:17] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:40:17] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:44:15] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:44:15] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:44:34] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:44:34] "[35m[1mGET /donors HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:44:39] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:44:39] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:44:41] "[35m[1mGET /donors HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:44:41] "[36mGET /donors?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:44:41] "[36mGET /donors?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:44:41] "GET /donors?__debugger__=yes&cmd=resource&f=console.png&s=mRCpxJOicCEzsqK5rWo0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:44:41] "[36mGET /donors?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:45:13] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:45:13] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:45:33] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:45:33] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:45:39] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:45:39] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:45:40] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:45:40] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:45:48] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:45:48] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:45:49] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:45:49] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:51:47] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:51:47] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:56:05] "[35m[1mGET /donors HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:56:05] "[36mGET /donors?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:56:05] "[36mGET /donors?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:56:05] "GET /donors?__debugger__=yes&cmd=resource&f=console.png&s=QrCqF0XyLFZg0AAHdyl1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 18:56:05] "[36mGET /donors?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:00:52] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:00:52] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:00:55] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:00:55] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:00:56] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:00:56] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:00:56] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:00:56] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:03:29] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:03:41] "[31m[1mPOST /accept_donor/1 HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:04:19] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:04:19] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:04:23] "POST /delete_donor/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:05:08] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:05:08] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:05:09] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:05:09] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:08] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:08] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:09] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:09] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:10] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:10] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:10] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:10] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:10] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:10] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:15] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:15] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:49] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:49] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:54] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:54] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:57] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:57] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:59] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:07:59] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:08:03] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:08:03] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:08:08] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:08:08] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:08:10] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:08:10] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:12:39] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:12:39] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:13:58] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:13:58] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:15:40] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:15:40] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:15:57] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:15:57] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:19:06] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:19:06] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:19:08] "[31m[1mPOST /accept_donor/1 HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:20:33] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:20:33] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:20:33] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:20:33] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:20:37] "POST /accept_donor/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:20:38] "POST /accept_donor/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:20:57] "POST /decline_donor/2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:21:38] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:21:38] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:21:39] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:21:39] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:21:43] "POST /accept_donor/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:21:44] "POST /accept_donor/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:23:13] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:23:13] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:23] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:23] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:28] "POST /accept_donor/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:29] "POST /accept_donor/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:36] "POST /accept_donor/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:45] "POST /decline_donor/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:49] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:49] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:01] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:02] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:02] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:02] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:05] "POST /accept_donor/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:16] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:17] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:17] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:17] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:17] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:17] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:18] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:40] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:40] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:09] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:09] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:13] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:13] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:14] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:14] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:16] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:16] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:17] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:17] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:19] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:19] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:23] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:23] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:24] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:24] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:33] "POST /accept_donor/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:30:44] "POST /decline_donor/3 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:36:20] "POST /accept_donor/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:36:22] "POST /accept_donor/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:36:38] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:36:38] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:37:39] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:37:39] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:37:57] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:37:57] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:38:59] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:38:59] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:05] "POST /decline_donor/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:11] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:11] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:16] "GET /contactus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:22] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:22] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:22] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:22] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:22] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:22] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:22] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:22] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:27] "GET /aboutus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:27] "[35m[1mGET /static/videos/Food%20Donation.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:31] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:31] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:40:05] "POST /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:40:11] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:40:11] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:40:14] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:40:14] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:27] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:28] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:28] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:28] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:28] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:28] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:28] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:35] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:35] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:35] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:35] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:35] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:41] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:09:41] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:10:17] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:10:17] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:10:25] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:10:25] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:10:26] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:10:26] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:10:32] "POST /accept_donor/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:10:43] "POST /decline_donor/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:11:01] "GET /contactus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:11:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:11:04] "GET /contactus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:11:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:11:05] "GET /contactus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:11:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:11:07] "GET /aboutus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:11:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:11:07] "[35m[1mGET /static/videos/Food%20Donation.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:11:48] "GET /aboutus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:11:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:11:50] "GET /aboutus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:11:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:11:52] "GET /contactus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:11:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:12:01] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:12:01] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:12:07] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:12:08] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:46] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:46] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:46] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:46] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:46] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:53] "GET /aboutus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:53] "[35m[1mGET /static/videos/Food%20Donation.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:53] "[35m[1mGET /static/videos/Food%20Donation.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:53] "[35m[1mGET /static/videos/Food%20Donation.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:57] "[36mGET /static/images/HeroSection.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:57] "[36mGET /static/images/account.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:57] "[36mGET /static/images/delivery.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:57] "[36mGET /static/images/celebrate.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:54:57] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:55:27] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:55:27] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:56:28] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:56:28] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:56:33] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:56:33] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:56:35] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:56:35] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:56:41] "POST /accept_donor/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:57:37] "POST /decline_donor/6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:57:50] "GET /contactus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 10:57:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 11:00:42] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 11:00:44] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 11:00:44] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 11:01:15] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 11:01:15] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 11:01:18] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 11:01:18] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 11:01:20] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 11:01:20] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 11:01:20] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 11:01:20] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 11:36:37] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Prachi\\OneDrive\\WEBSITE DEVELOPMENT\\FULL PROJECT\\Mini_Project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 680-984-768
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:09:45] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:20:44] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:23:43] "[35m[1mGET /static/videos/delivery.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:23:53] "GET /donor_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:23:53] "[36mGET /static/css/donorregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:24:18] "[32mPOST /donor_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:24:18] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:24:28] "GET /ngos-list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:24:28] "[36mGET /static/css/ngos_list.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:24:41] "GET /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:24:41] "[36mGET /static/css/ngoregistration.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:25:11] "POST /ngoregistration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:25:18] "GET /donors HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:25:18] "[36mGET /static/css/display_donors.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:25:25] "POST /accept_donor/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2024 14:25:27] "POST /accept_donor/1 HTTP/1.1" 200 -

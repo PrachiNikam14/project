@@ -1,0 +1,94 @@
+/* navigation bar */
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #14293f;
+}
+
+.border{
+    border: 2px solid transparent;
+    
+    border-radius: 5px;  
+    padding: 7px;
+}
+.border:hover{
+    border: 2px solid black;
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+}
+
+/* for the title : share a meal */
+.title{
+font-weight:bolder ;
+font-size: 2rem;
+display: flex;
+margin-left: 5%;
+#a{
+    color: white;
+}
+#b{
+    color: rgb(255, 106, 0);
+}
+}
+
+/* for other options in nav bar */
+.menu{
+    list-style-type:none ;
+    width: 50%;
+}
+
+ul{
+list-style-type: none;
+display: flex;
+align-content: center;
+justify-content: space-evenly;
+margin-left: 20%;
+}
+ 
+a{
+    font-size:1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+}
+/* for footer */
+footer
+{
+    height: 250px;
+    width: 100%;
+    background-color: #414141;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.footer_about, .footer_contact, .footer_title{
+    width: 25%;
+    font-size: 1.2rem;
+    color: white;
+    h5{
+        font-size: 1.5rem;
+        color: white;
+        padding: 8px;
+    }
+    i{
+        color: white;
+        font-size: 23px;
+        padding: 7px;
+    }
+    #fp{
+        color: white;
+        font-size: 1.4rem;
+        padding: 10px;
+    }
+    #o{
+        color:  rgb(255, 106, 0);
+        padding: 10px;
+    }
+
+}

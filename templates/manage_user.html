@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Users</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f8f9fa;
+        }
+
+        /* Header */
+        .header {
+            background: #007bff;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+        }
+
+        .logout {
+            background: red;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        /* Layout */
+        .container {
+            display: flex;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 250px;
+            height: 90vh;
+            background: #343a40;
+            color: white;
+            padding-top: 20px;
+            position: fixed;
+            left: 0;
+            top: 85px;
+
+        }
+
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            padding: 15px;
+            border-bottom: 1px solid #495057;
+            transition: 0.3s;
+        }
+
+        .sidebar ul li:hover {
+            background: #495057;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        .sidebar ul li a i {
+            margin-right: 10px;
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+            width: 100%;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background: white;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        thead tr {
+            background: #007bff;
+            color: white;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        /* Buttons */
+        .btn-edit, .btn-delete {
+            display: inline-block;
+            padding: 6px 12px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            transition: 0.3s;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+
+        .btn-edit {
+            background: #28a745;
+        }
+
+        .btn-delete {
+            background: red;
+        }
+
+        .btn-edit:hover {
+            background: #218838;
+        }
+
+        .btn-delete:hover {
+            background: darkred;
+        }
+
+        /* Add User Button */
+        .add-user-btn {
+            background: #28a745;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .add-user-btn:hover {
+            background: #218838;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 200px;
+            }
+
+            .main-content {
+                margin-left: 200px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            .main-content {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Admin Dashboard - Manage Ngos</h1>
+        <a href="{{ url_for('logout') }}" class="logout"><i class="fa-solid fa-user"></i> LogOut</a>
+    </div>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2><i class="fa-solid fa-bars"></i> Admin Menu</h2>
+            <ul>
+                <li><a href="{{ url_for('admin_dashboard') }}"><i class="fa-solid fa-home"></i> Dashboard</a></li>
+                <li><a href="{{ url_for('manage_cities') }}"><i class="fa-solid fa-city"></i> Total Cities</a></li>
+                <li><a href="{{ url_for('manage_user') }}"><i class="fa-solid fa-users"></i> Manage Users</a></li>
+                <li><a href="{{ url_for('manage_ngos') }}"><i class="fa-solid fa-hand-holding-heart"></i> Manage NGOs</a></li>
+                <li><a href="{{ url_for('all_requests') }}"><i class="fa-solid fa-list"></i> All Requests</a></li>
+                <li><a href="{{ url_for('display_feedbacks') }}"><i class="fa-solid fa-comments"></i> Feedbacks</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h2>Manage Users</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Username</th>
+                        <th>Phone</th>
+                        <th>City</th>
+                        <th>Address</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for user in users %}
+                    <tr>
+                        <td>{{ user.id }}</td>
+                        <td>{{ user.name }}</td>
+                        <td>{{ user.email }}</td>
+                        <td>{{ user.username }}</td>
+                        <td>{{ user.phone }}</td>
+                        <td>{{ user.city }}</td>
+                        <td>{{ user.address }}</td>
+                        <td>
+                            <a href="{{ url_for('edit_user', user_id=user.id) }}" class="btn-edit">
+                                <i class="fa-solid fa-pen"></i> Edit
+                            </a>
+                            <a href="{{ url_for('delete_user', user_id=user.id) }}" class="btn-delete" 
+                               onclick="return confirm('Are you sure you want to delete this user?');">
+                                <i class="fa-solid fa-trash"></i> Delete
+                            </a>
+                           
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <a href="{{ url_for('add_user') }}" class="add-user-btn"><i class="fa-solid fa-user-plus"></i> Add New User</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard User Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='admin_dash.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Admin Dashboard</h1>
+            <a href="{{ url_for('logout') }}" class="logout"><i class="fa-solid fa-user"></i>LogOut</a>
+
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <h2><i class="fa-solid fa-bars"></i>Admin Menu</h2>
+              <ul>
+                <li><a href="admin_dashboard.html">Dashboard</a></li>
+                <li><a href="City.html">Total Cities</a></li>
+                <li><a href="manage_user.html">Manage Users</a></li>
+                <li><a href="manage_ngo.html">Manage NGOs</a></li>
+                <li><a href="totalrequest.html"> All Requests</a></li>
+                <li><a href="feedback.html">Feedbacks</a></li>
+              </ul>
+            </div>
+            <div class="content">
+                <p>Manage User.</p>
+            </div>
+        </div>
+      </div>
+</body>
+</html> -->

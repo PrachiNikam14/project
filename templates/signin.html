@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='signup.css') }}">
+    <style>
+      body{
+        background-color: #f4f4f4;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div id="sign-in-options">
+        <h2>Sign In</h2>
+        <form action="/signin_other" method="post">
+          <input type="text" id="username" name="username" placeholder=" Enter Username" required>
+          <input type="password" id="password" name="password" placeholder=" Enter Password" required>
+          <button type="submit" class="btn">Sign In</button>
+        </form>
+        <a href="index.html" id="back">Back to Home Page</a>
+      </div>
+    </div>
+</body>
+</html>

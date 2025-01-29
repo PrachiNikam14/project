@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='foodlist.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Food List</h1>
+        {% if food_items %}
+            <div class="food-items">
+                {% for food in food_items %}
+                    <div class="food-item">
+                        <h3>{{ food.food_item }}</h3>
+                        <p><strong>Description:</strong> {{ food.description }}</p>
+                        <p><strong>Pickup Date:</strong> {{ food.pickup_date }}</p>
+                        <p><strong>Pickup Address:</strong> {{ food.pickup_address }}</p>
+                        <p><strong>City:</strong> {{ food.city }}</p>
+                        <p><strong>Contact Person:</strong> {{ food.contact_person }}</p>
+                        <p><strong>Mobile:</strong> {{ food.mobile_number }}</p>
+                        
+                        {% if food.pictures %}
+                      <p><strong>Picture:</strong><br><img src="{{ url_for('static', filename='uploads/' + food.pictures) }}" alt="Food Image" style="max-width: 200px;"></p>
+
+
+                            <p>No picture available</p>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p>No food items available</p>
+        {% endif %}
+    </div>
+</body>
+</html>
+
+
+
+<!-- Main Page Of Donar DashBoard
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donar DashBoard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='donor_dash.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Donar Dashboard</h1>
+            <a href="#" class="logout">LogOut</a>
+        </div>
+    </div>
+    <div class="content">
+    <div class="sidebar">
+        <ul>
+                <li> <p class="main">&equiv; Main Menu </p></li>
+                <br> 
+                <li><a href="{{ url_for('donor_dashboard') }}">DashBoard</a></li> 
+                <li><a href="{{ url_for('donate') }}">Donate</a></li>  
+                <li><a href="{{ url_for('foodlist') }}">Food List</a></li>
+                <li><a href="{{ url_for('requests') }}">Requests</a></li>
+        </ul> 
+    </div>
+    <div class="main-content">
+        <h1>FOODLISTS :  </h1>
+        <h1>Submitted Food Items</h1>
+        
+        {% if food_items %}
+            <ul>
+                {% for food in food_items %}
+                    <li>
+                        <h3>{{ food.food_item }}</h3>
+                        <p><strong>Description:</strong> {{ food.description }}</p>
+                        <p><strong>Pickup Date:</strong> {{ food.pickup_date }}</p>
+                        <p><strong>Pickup Address:</strong> {{ food.pickup_address }}</p>
+                        <p><strong>City:</strong> {{ food.city }}</p>
+                        <p><strong>Contact Person:</strong> {{ food.contact_person }}</p>
+                        <p><strong>Mobile Number:</strong> {{ food.mobile_number }}</p>
+                        {% if food.pictures %}
+                            <p><strong>Picture:</strong> <img src="{{ url_for('static', filename='uploads/' + food.pictures) }}" alt="Food Image" width="150"></p>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No food items available.</p>
+        {% endif %}
+    </div>
+    </div>
+</div>
+</body>
+</html> -->

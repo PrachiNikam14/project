@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search and Filter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0; /* Remove default body padding */
+  background-color: #f9f9f9;
+}
+
+/* Header */
+.header {
+  background: #007bff;
+  height:85px;
+  color: white;
+  padding: 1px;
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /* Position header fixed to the top */
+  top: 0;
+  left: 0;
+  right: 0; /* Make header full width */
+  z-index: 1; /* Ensure header is on top of other elements */
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+}
+
+.logout {
+  background: red;
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  min-height: 100vh; 
+  background: #343a40;
+  color: white;
+  padding-top: 20px;
+  position: fixed;
+  left: 0;
+  top: 85px; /* Adjust top position if needed */
+  overflow-y: auto; 
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 15px;
+  border-bottom: 1px solid #495057;
+  transition: 0.3s;
+}
+
+.sidebar ul li:hover {
+  background: #495057;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar ul li a i {
+  margin-right: 10px;
+}
+
+/* Main Content */
+.main-content {
+  margin-left: 250px; /* Adjust for sidebar width */
+  padding: 20px;
+  transition: 0.3s;
+  width: calc(100% - 250px); /* Ensure main content takes up remaining space */
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin-left: 270px; /* Center the container horizontally */
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 170px;
+}
+
+/* Headings */
+.header h1 {
+  text-align: center;
+  color: white;
+}
+
+/* Search Box */
+.search-box {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Table Container */
+.table-container {
+  overflow-x: auto;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  min-width: 800px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #5daafd;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .dashboard-container {
+    grid-template-columns: 1fr;
+  }
+}
+/* Additional Styles*/
+    </style>
+</head>
+<body>
+    <!-- Header -->
+   <div class="header">
+    <h1>Admin Dashboard </h1>
+    <a href="{{ url_for('logout') }}" class="logout"><i class="fa-solid fa-user"></i> LogOut</a>
+</div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2><i class="fa-solid fa-bars"></i> Admin Menu</h2>
+        <ul>
+            <li><a href="{{ url_for('admin_dashboard') }}"><i class="fa-solid fa-home"></i> Dashboard</a></li>
+            <li><a href="{{ url_for('manage_cities') }}"><i class="fa-solid fa-city"></i> Total Cities</a></li>
+            <li><a href="{{ url_for('manage_user') }}"><i class="fa-solid fa-users"></i> Manage Users</a></li>
+            <li><a href="{{ url_for('manage_ngos') }}"><i class="fa-solid fa-hand-holding-heart"></i> Manage NGOs</a></li>
+            <li><a href="{{ url_for('all_requests') }}"><i class="fa-solid fa-list"></i> All Requests</a></li>
+            <li><a href="{{ url_for('display_feedbacks') }}"><i class="fa-solid fa-comments"></i> Feedbacks</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>Search and Filter</h1>
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Search by city...">
+            <input type="text" id="nameInput" placeholder="Search by name...">
+        </div>
+
+        <h2>Users</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Aadhar No</th>
+                        <th>Email</th>
+                        <th>Username</th>
+                        <th>Phone</th>
+                        <th>City</th>
+                        <th>Address</th>
+                        <th>ID Proof</th>
+                        <th>Created At</th>
+                        <th>Role</th>
+                    </tr>
+                </thead>
+                <tbody id="userTable"></tbody>
+            </table>
+        </div>
+
+        <h2>NGOs</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Registration No</th>
+                        <th>Email</th>
+                        <th>Username</th>
+                        <th>Phone No</th>
+                        <th>City</th>
+                        <th>Address</th>
+                        <th>Registration Certificate</th>
+                        <th>Role</th>
+                    </tr>
+                </thead>
+                <tbody id="ngoTable"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+
+    <script>
+    // Debounce function
+    let debounceTimeout;
+    const debounce = (func, delay) => {
+        return (...args) => {
+            clearTimeout(debounceTimeout);
+            debounceTimeout = setTimeout(() => func(...args), delay);
+        };
+    };
+
+    let lastCity = null;
+    let lastName = null;
+
+        const fetchData = async () => {
+        const city = cityInput.value.trim();
+        const name = nameInput.value.trim();
+
+        // Fetch only if inputs have changed
+        if (city === lastCity && name === lastName) return;
+
+        lastCity = city;
+        lastName = name;
+
+        console.log(`Fetching with city="${city}", name="${name}"`);
+
+        try {
+            const query = [];
+            if (city) query.push(`city=${encodeURIComponent(city)}`);
+            if (name) query.push(`name=${encodeURIComponent(name)}`);
+
+            const userResponse = await fetch(`/users?${query.join('&')}`);
+            const ngoResponse = await fetch(`/ngos?${query.join('&')}`);
+
+            if (!userResponse.ok || !ngoResponse.ok) {
+                console.error("Error fetching data");
+                return;
+            }
+
+            const users = await userResponse.json();
+            const ngos = await ngoResponse.json();
+
+            userTable.innerHTML = users.map(user => `
+                <tr>
+                    <td>${user.id}</td>
+                    <td>${user.name}</td>
+                    <td>${user.aadhar_no}</td>
+                    <td>${user.email}</td>
+                    <td>${user.username}</td>
+                    <td>${user.phone}</td>
+                    <td>${user.city}</td>
+                    <td>${user.address}</td>
+                    <td>${user.id_proof}</td>
+                    <td>${user.created_at}</td>
+                    <td>${user.role}</td>
+                </tr>
+            `).join('');
+
+            ngoTable.innerHTML = ngos.map(ngo => `
+                <tr>
+                    <td>${ngo.id}</td>
+                    <td>${ngo.name}</td>
+                    <td>${ngo.registration_no}</td>
+                    <td>${ngo.email}</td>
+                    <td>${ngo.username}</td>
+                    <td>${ngo.phone_no}</td>
+                    <td>${ngo.city}</td>
+                    <td>${ngo.address}</td>
+                    <td>${ngo.registration_certificate}</td>
+                    <td>${ngo.role}</td>
+                </tr>
+            `).join('');
+        } catch (error) {
+            console.error("Error during fetch:", error);
+        }
+    };
+
+    // Apply debounce
+    const debouncedFetchData = debounce(fetchData, 500);
+
+    cityInput.addEventListener('input', debouncedFetchData);
+    nameInput.addEventListener('input', debouncedFetchData);
+</script>
+
+
+
+</body>
+</html>
+
+

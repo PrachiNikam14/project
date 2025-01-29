@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit NGO</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='edit_add_ngo.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Edit NGO</h1>
+            <a href="{{ url_for('logout') }}" class="logout">LogOut</a>
+        </div>
+
+        <div class="content">
+            <form action="{{ url_for('edit_ngo', id=ngo.id) }}" method="POST" enctype="multipart/form-data">
+                <label for="name">NGO Name</label>
+                <input type="text" id="name" name="name" value="{{ ngo.name }}" required>
+
+                <label for="registration_no">Registration No</label>
+                <input type="text" id="registration_no" name="registration_no" value="{{ ngo.registration_no }}" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" value="{{ ngo.email }}" required>
+
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" value="{{ ngo.username }}" required>
+
+                <label for="phone_no">Phone Number</label>
+                <input type="text" id="phone_no" name="phone_no" value="{{ ngo.phone_no }}" required>
+
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" value="{{ ngo.city }}" required>
+
+                <label for="address">Address</label>
+                <textarea id="address" name="address" required>{{ ngo.address }}</textarea>
+
+                <label for="registration_certificate">Registration Certificate</label>
+                <input type="file" id="registration_certificate" name="registration_certificate">
+
+                <button type="submit">Update NGO</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
