@@ -3,95 +3,244 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food List</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='foodlist.css') }}">
-</head>
-<body>
-    <div class="container">
-        <h1>Food List</h1>
-        {% if food_items %}
-            <div class="food-items">
-                {% for food in food_items %}
-                    <div class="food-item">
-                        <h3>{{ food.food_item }}</h3>
-                        <p><strong>Description:</strong> {{ food.description }}</p>
-                        <p><strong>Pickup Date:</strong> {{ food.pickup_date }}</p>
-                        <p><strong>Pickup Address:</strong> {{ food.pickup_address }}</p>
-                        <p><strong>City:</strong> {{ food.city }}</p>
-                        <p><strong>Contact Person:</strong> {{ food.contact_person }}</p>
-                        <p><strong>Mobile:</strong> {{ food.mobile_number }}</p>
-                        
-                        {% if food.pictures %}
-                      <p><strong>Picture:</strong><br><img src="{{ url_for('static', filename='uploads/' + food.pictures) }}" alt="Food Image" style="max-width: 200px;"></p>
+    <title>Donar Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
-                            <p>No picture available</p>
-                        {% endif %}
-                    </div>
-                {% endfor %}
-            </div>
-        {% else %}
-            <p>No food items available</p>
-        {% endif %}
-    </div>
-</body>
-</html>
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
+.header {
+    width: 80%;
+    margin-top: 2rem;  
+    background-color: #fcfdfd;
+    color: rgb(13, 13, 13);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 18px;;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* margin-left: 270px; */
+   position: relative;
+    left: 17REM;
+}
 
-<!-- Main Page Of Donar DashBoard
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donar DashBoard</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='donor_dash.css') }}">
+.header h1 {
+    font-size: 1.5rem;
+
+}
+
+.header .logout {
+    
+    background-color: rgb(246, 12, 12);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: color 0.3s;
+}
+
+.header .logout:hover {
+    color: #ffcccc;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 1rem;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: #007bff;
+}
+
+/* Main Content */
+.main-content {
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    left: 17REM;
+    height: 300px;
+}
+
+.food{
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    height: 150px;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #070707;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.card span {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.card.green {
+    background-color: #ffffff;
+}
+
+.card.green:hover{
+    background: #007bff;
+            color: white;
+            transform: scale(1.05);
+}
+
+.card.red {
+    background-color: white;
+}
+
+.card.red:hover{
+    background: #007bff;
+            color: white;
+            transform: scale(1.05);
+}
+.card.blue {
+    background-color: white;
+}
+
+.card.blue:hover{
+    background: #007bff;
+            color: white;
+            transform: scale(1.05);
+}
+
+.card.black {
+    background-color: white;
+}
+
+.card.black:hover{
+    background: #007bff;
+            color: white;
+            transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        min-height: auto;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+</style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>Donar Dashboard</h1>
-            <a href="#" class="logout">LogOut</a>
+            <a href="#" class="logout">  <i class="fa-solid fa-user"></i>LogOut</a>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <h2><i class="fa-solid fa-bars"></i>Donar Menu</h2>
+              <ul>
+                <li><a href="donar.html">Dashboard</a></li>
+                <li><a href="food_list.html">Food List</a></li>
+                <li><a href="donar_request.html">Request</a></li>
+                <li><a href="#">Donate</a></li>
+              </ul>
+            </div>
+
+            <div class="main-content">
+              <h2 class="food">Food List</h2>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="content">
-    <div class="sidebar">
-        <ul>
-                <li> <p class="main">&equiv; Main Menu </p></li>
-                <br> 
-                <li><a href="{{ url_for('donor_dashboard') }}">DashBoard</a></li> 
-                <li><a href="{{ url_for('donate') }}">Donate</a></li>  
-                <li><a href="{{ url_for('foodlist') }}">Food List</a></li>
-                <li><a href="{{ url_for('requests') }}">Requests</a></li>
-        </ul> 
-    </div>
-    <div class="main-content">
-        <h1>FOODLISTS :  </h1>
-        <h1>Submitted Food Items</h1>
-        
-        {% if food_items %}
-            <ul>
-                {% for food in food_items %}
-                    <li>
-                        <h3>{{ food.food_item }}</h3>
-                        <p><strong>Description:</strong> {{ food.description }}</p>
-                        <p><strong>Pickup Date:</strong> {{ food.pickup_date }}</p>
-                        <p><strong>Pickup Address:</strong> {{ food.pickup_address }}</p>
-                        <p><strong>City:</strong> {{ food.city }}</p>
-                        <p><strong>Contact Person:</strong> {{ food.contact_person }}</p>
-                        <p><strong>Mobile Number:</strong> {{ food.mobile_number }}</p>
-                        {% if food.pictures %}
-                            <p><strong>Picture:</strong> <img src="{{ url_for('static', filename='uploads/' + food.pictures) }}" alt="Food Image" width="150"></p>
-                        {% endif %}
-                    </li>
-                {% endfor %}
-            </ul>
-        {% else %}
-            <p>No food items available.</p>
-        {% endif %}
-    </div>
-    </div>
-</div>
 </body>
-</html> -->
+</html>

@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donar Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Donor Dashboard</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <style>
-
 * {
     margin: 0;
     padding: 0;
@@ -30,27 +28,26 @@ body {
 }
 
 .header {
-    width: 80%;
-    margin-top: 2rem;  
+    width: 100%;
     background-color: #fcfdfd;
     color: rgb(13, 13, 13);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 18px;;
+    padding: 12px 18px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* margin-left: 270px; */
-   position: relative;
-    left: 17REM;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 
 .header h1 {
     font-size: 1.5rem;
-
 }
 
 .header .logout {
-    
     background-color: rgb(246, 12, 12);
     color: white;
     border: none;
@@ -68,7 +65,7 @@ body {
 .content {
     display: flex;
     flex: 1;
-    overflow: hidden;
+    margin-top: 60px;
 }
 
 /* Sidebar */
@@ -77,22 +74,16 @@ body {
     color: white;
     padding: 1rem;
     width: 250px;
-    height: 100%;
     position: fixed;
-    top: 0;
+    top: 60px;
     left: 0;
-}
-
-.sidebar h2 {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    bottom: 0;
+    transition: transform 0.3s ease-in-out;
 }
 
 .sidebar ul {
     list-style: none;
+    padding: 0;
 }
 
 .sidebar ul li {
@@ -110,20 +101,10 @@ body {
     color: #007bff;
 }
 
-/* Main Content */
 .main-content {
-    width: 80%;
+    flex: 1;
     padding: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    position: relative;
-    left: 17REM;
-    height: 300px;
-}
-
-.request{
-    text-align: center;
+    margin-left: 270px;
 }
 
 .cards {
@@ -156,88 +137,50 @@ body {
     display: block;
 }
 
-.card span {
-    font-size: 2rem;
-    color: #333;
-    font-weight: bold;
-}
-
-.card.green {
-    background-color: #ffffff;
-}
-
-.card.green:hover{
-    background: #007bff;
-            color: white;
-            transform: scale(1.05);
-}
-
-.card.red {
-    background-color: white;
-}
-
-.card.red:hover{
-    background: #007bff;
-            color: white;
-            transform: scale(1.05);
-}
-.card.blue {
-    background-color: white;
-}
-
-.card.blue:hover{
-    background: #007bff;
-            color: white;
-            transform: scale(1.05);
-}
-
-.card.black {
-    background-color: white;
-}
-
-.card.black:hover{
-    background: #007bff;
-            color: white;
-            transform: scale(1.05);
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
-    .content {
-        flex-direction: column;
+    .sidebar {
+        transform: translateX(-100%);
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
     }
 
-    .sidebar {
-        width: 100%;
-        min-height: auto;
+    .main-content {
+        margin-left: 0;
+        padding: 1rem;
     }
 
     .cards {
         grid-template-columns: 1fr;
     }
 }
-
 </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>Donar Dashboard</h1>
-            <a href="#" class="logout">  <i class="fa-solid fa-user"></i>LogOut</a>
+            <h1>Donor Dashboard</h1>
+            <a href="#" class="logout"><i class="fa-solid fa-user"></i> Log Out</a>
         </div>
         <div class="content">
             <div class="sidebar">
-                <h2><i class="fa-solid fa-bars"></i>Donar Menu</h2>
-              <ul>
-                <li><a href="donar.html">Dashboard</a></li>
-                <li><a href="food_list.html">Food List</a></li>
-                <li><a href="donar_request.html">Request</a></li>
-                <li><a href="#">Donate</a></li>
-              </ul>
+                <h2><i class="fa-solid fa-bars"></i> Donor Menu</h2>
+                <ul>
+                    <li><a href="donor.html">Dashboard</a></li>
+                    <li><a href="food_list.html">Food List</a></li>
+                    <li><a href="donor_request.html">Request</a></li>
+                    <li><a href="#">Donate</a></li>
+                </ul>
             </div>
-
             <div class="main-content">
-              <h2 class="request">Requests</h2>
+                <div class="cards">
+                    <div class="card"><a href="City.html">Total Cities</a><br><span>15</span></div>
+                    <div class="card"><a href="manage_user.html">Manage Users</a><br><span>3</span></div>
+                    <div class="card"><a href="manage_ngo.html">Manage NGOs</a><br><span>1</span></div>
+                    <div class="card"><a href="request.html">All Requests</a><br><span>3</span></div>
+                    <div class="card"><a href="feedback.html">Feedbacks</a><br><span>2</span></div>
                 </div>
             </div>
         </div>
