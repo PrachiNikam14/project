@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Segregation Guidance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        /* Reset and Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4c9;
+            color: #333;
+             
+        background-image: url('back4.webp'); 
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+
+        }
+        
+        .header {
+    background: rgb(31,1,51);
+    background: linear-gradient(90deg, rgba(31,1,51,1) 6%, rgba(228,0,0,1) 50%, rgba(252,176,69,1) 100%);
+    height: 15%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logout{
+  background-color: rgb(31,1,51);
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  border: 5px;
+  border-color:rgb(31,1,51);
+  border-radius:60px;
+  border-style: solid;
+}
+
+.logout i{
+  padding-right: 9px;
+ }
+ 
+ .header .logout:hover {
+   background-color: #6b4389;
+ }
+
+        /* Hero Section */
+        .hero {
+            background: url('waste-bg.jpg') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+            img{
+                background-color: aqua;
+                height: 500px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            h1{
+                margin-top: 3rem;
+                background-color: #ee8c5f;
+                padding: 13px;
+                border-radius: 7px;
+            }
+        }
+
+        /* Waste Categories */
+        .categories {
+            text-align: center;
+            padding: 50px 5%;
+        }
+
+        .categories h2 {
+            font-size: 2rem;        
+            background-color: green;
+            color:white;
+            display: inline;
+            padding: 7px;
+            position: relative;
+            bottom: 2rem; 
+        }
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.7);
+            width: 255px;
+            text-align: center;
+            transition: transform 0.3s;
+
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+            color: #000000;
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: #666;
+            padding: 0 10px 20px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #414141;
+            padding: 50px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .menu {
+                display: none;
+                flex-direction: column;
+                gap: 10px;
+                width: 100%;
+                background-color: #14293f;
+                text-align: center;
+                padding: 10px 0;
+            }
+
+            .menu.active {
+                display: flex;
+            }
+
+            .menu-toggle {
+                display: block;
+            }
+
+            ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .grid {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Share A Meal</h1>
+            
+            <a href="#" class="logout">LogOut</a>
+        
+        </div>
+    <section class="hero">    
+       <h1>Guide to Waste Segregation</h1>
+    </section>
+
+    <section class="categories">
+        <h2>Categories of Waste</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="green3.jpg" alt="Organic Waste">
+                <h3>Organic Waste</h3>
+                <p>Used for biodegradable waste like food scraps and garden waste, ideal for composting.</p>
+            </div>
+            <div class="card">
+                <img src="bluebin1.jpg" alt="Plastic Waste">
+                <h3>Plastic Waste</h3>
+                <p>Designed for dry recyclable waste such as paper, plastic, and glass.</p>
+            </div>
+            <div class="card">
+                <img src="yellow.jpg" alt="Glass Waste">
+                <h3>Medical Waste</h3>
+                <p>Used for medical and sanitary waste including bandages and syringes.</p>
+            </div>
+            <div class="card">
+                <img src="red.webp" alt="Paper Waste">
+                <h3>Hazardous Waste</h3>
+                <p>Meant for hazardous or metallic waste like cans, tins, and e-waste.</p>
+            </div>
+            <div class="card">
+                <img src="black.jpg" alt="Metal Waste">
+                <h3>Non-Recyclable  Waste</h3>
+                <p> For non-recyclable and soiled waste like used tissues or mixed garbage.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Waste Segregation Guidance | Created for a Cleaner Future</p>
+    </footer>
+
+    <script>
+        document.querySelector(".menu-toggle").addEventListener("click", function() {
+            document.querySelector(".menu").classList.toggle("active");
+        });
+    </script>
+
+</body>
+</html>
